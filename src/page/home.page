@@ -1,5 +1,11 @@
 <template>
   <div @name="example" class="example">
+    <h2>便于书写单页多界面网页</h2>
+    <div>
+      <a href="#home">home页面</a>
+      <a href="#name">name页面</a>
+    </div>
+    <h2>更加方便的点击事件处理</h2>
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
     <div class="for-box">
       <p v-for="(value, key, index) in nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
@@ -21,8 +27,10 @@
     },
     methods: {
       showAlert: function (othersName, myName) {
+        console.log('可以传递参数:', othersName, myName)
+        console.log('方便的获取到可能会用到的信息!')
         console.log(this)
-        alert('Hellow ' + othersName + ', My name is ' + myName)
+        // alert('Hellow ' + othersName + ', My name is ' + myName)
       }
     }
   }

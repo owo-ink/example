@@ -27,14 +27,24 @@
     <link rel="stylesheet" href="./main.css">
   </head>
   <body>
-    <!-- *body-home* -->
-    <div class="ox ox-home" id="ox-home"><div @name="example" class="example">
+    <div class="ox ox-home" id="ox-home" style="display: none;"><div @name="example" class="example">
+    <h2>便于书写单页多界面网页</h2>
+    <div>
+      <a href="#home">home页面</a>
+      <a href="#name">name页面</a>
+    </div>
+    <h2>更加方便的点击事件处理</h2>
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
     <div class="for-box">
       <p>rank1:0-lis like orange color!</p><p>rank2:1-kim like yellow color!</p><p>rank3:2-tony like white color!</p>
     </div>
-  </div></div>
-    <temple name="name"></temple>
+  </div>
+</div>
+    <div class="ox ox-name" id="ox-name" style="display: none;"><div class="top-bar">
+    <a href="#home">返回</a>
+  </div>
+  <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
+</div>
     <script src="./main.js" type="text/javascript"></script>
   </body>
 </html>

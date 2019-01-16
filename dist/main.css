@@ -1,3 +1,4 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
 body, html {
   margin: 0;
   padding: 0;
@@ -9,10 +10,8 @@ body, html {
 .clear {
   clear: both;
 }
-
-.page-class {
-  width: 100%;
-  height: 100%;
+a{
+  text-decoration: none;
 }
 
 .ox-home .example .click {
@@ -22,4 +21,30 @@ body, html {
 
 .ox-home .example .click:hover {
   color: gold;
+}.ox-name .example {
+  color: #009fe9;
+  height: 50px;
+  width: 400px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.ox-name a {
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 0;
+}
+
+.ox-name .top-bar {
+  height: 40px;
+  padding: 0 10px;
+  background-color: khaki;
 }
