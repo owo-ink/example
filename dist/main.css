@@ -21,6 +21,10 @@ a{
 
 .ox-home .example .click:hover {
   color: gold;
+}.ox-name .top-bar {
+  height: 40px;
+  padding: 0 10px;
+  background-color: khaki;
 }.ox-name .example {
   color: #009fe9;
   height: 50px;
@@ -41,10 +45,4 @@ a{
   line-height: 40px;
   font-size: 18px;
   margin: 0;
-}
-
-.ox-name .top-bar {
-  height: 40px;
-  padding: 0 10px;
-  background-color: khaki;
 }

@@ -2,7 +2,7 @@
     window.ozzx = {
       script: {}
     };
-    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":true,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
+    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":false,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
   // 对象合并方法
 function assign(a, b) {
   var newObj = {}
@@ -60,10 +60,8 @@ function pgNameHandler (dom) {
     var clickFunc = tempDom.attributes['@click']
     
     if (clickFunc) {
-      console.log(dom.children)
       tempDom.onclick = function() {
         var clickFor = this.attributes['@click'].textContent
-        console.log(i)
         // 判断页面是否有自己的方法
         var newPageFunction = window.ozzx.script[window.ozzx.activePage]
         
@@ -157,7 +155,7 @@ window.onhashchange = function(e) {
     return
   }
   window.ozzx.activePage = newUrlParam
-  runPageFunction(newUrlParam, entryDom)
+  runPageFunction(newUrlParam, newDom)
 }
 
       window.ozzx.script = {home:{data:{nameList:{rank1:{name:"lis",like:"orange"},rank2:{name:"kim",like:"yellow"},rank3:{name:"tony",like:"white"}}},created:function created(){console.log('hellow word!');},methods:{showAlert:function showAlert(othersName,myName){console.log('可以传递参数:',othersName,myName);console.log('方便的获取到可能会用到的信息!');console.log(this);}}},name:{created:function created(){console.log('my name is pack!');}}}

@@ -1,7 +1,5 @@
 <template>
-  <div class="top-bar">
-    <a href="#home">返回</a>
-  </div>
+  <temple name="http://puge.oss-cn-beijing.aliyuncs.com/ozzx/topBar.page"></temple>
   <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </template>
 
@@ -33,10 +31,5 @@
     line-height: 40px;
     font-size: 18px;
     margin: 0;
-  }
-  .top-bar {
-    height: 40px;
-    padding: 0 10px;
-    background-color: khaki;
   }
 </style>
