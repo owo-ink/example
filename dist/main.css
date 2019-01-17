@@ -10,8 +10,18 @@ body, html {
 .clear {
   clear: both;
 }
+h2 {
+  margin: 0;
+}
 a{
   text-decoration: none;
+}
+.ox-name {
+  background-color: white;
+}
+
+.ox-home .example {
+  background-color: white;
 }
 
 .ox-home .example .click {
