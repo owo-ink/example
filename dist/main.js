@@ -2,7 +2,7 @@
     window.ozzx = {
       script: {}
     };
-    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":false,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
+    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":true,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
   // 对象合并方法
 function assign(a, b) {
   var newObj = {}
@@ -79,6 +79,19 @@ function pgNameHandler (dom) {
         if (parameterList && parameterList.length > 0) {
           // 参数列表
           parameterArr = parameterList[0].split(',')
+          // 进一步处理参数
+          for (let i = 0; i < parameterArr.length; i++) {
+            var parameterValue = parameterArr[i].replace(/(^\s*)|(\s*$)/g, "")
+            // console.log(parameterValue)
+            // 判断参数是否为一个字符串
+            if (parameterValue.charAt(0) === '"' && parameterValue.charAt(parameterValue.length - 1) === '"') {
+              parameterArr[i] = parameterValue.substring(1, parameterValue.length - 2)
+            }
+            if (parameterValue.charAt(0) === "'" && parameterValue.charAt(parameterValue.length - 1) === "'") {
+              parameterArr[i] = parameterValue.substring(1, parameterValue.length - 2)
+            }
+            // console.log(parameterArr[i])
+          }
           clickFor = clickFor.replace('(' + parameterList + ')', '')
         }
         // console.log(newPageFunction)
@@ -87,7 +100,7 @@ function pgNameHandler (dom) {
           // 绑定window.ozzx对象
           // console.log(tempDom)
           newPageFunction.methods[clickFor].apply({
-            $el: tempDom,
+            $el: this,
             activePage: window.ozzx.activePage,
             domList: window.ozzx.domList,
             data: newPageFunction.data,
@@ -101,7 +114,8 @@ function pgNameHandler (dom) {
       pgNameHandler(tempDom)
     }
   }
-}// 获取URL #后面内容
+}
+// 获取URL #后面内容
 function getarg(url){
   arg = url.split("#");
   return arg[1];
@@ -158,5 +172,5 @@ window.onhashchange = function(e) {
   runPageFunction(newUrlParam, newDom)
 }
 
-      window.ozzx.script = {home:{data:{nameList:{rank1:{name:"lis",like:"orange"},rank2:{name:"kim",like:"yellow"},rank3:{name:"tony",like:"white"}}},created:function created(){console.log('hellow word!');},methods:{showAlert:function showAlert(othersName,myName){console.log('可以传递参数:',othersName,myName);console.log('方便的获取到可能会用到的信息!');console.log(this);}}},name:{created:function created(){console.log('my name is pack!');}}}
+      window.ozzx.script = {home:{data:{nameList:{rank1:{name:"lis",like:"orange"},rank2:{name:"kim",like:"yellow"},rank3:{name:"tony",like:"white"}}},created:function created(){console.log('hellow word!');},methods:{showAlert:function showAlert(othersName,myName){console.log('可以传递参数:',othersName,myName);console.log('方便的获取到可能会用到的信息!');console.log(this);this.$el.innerText="Hellow ".concat(othersName,", My name is ").concat(myName);}}},name:{created:function created(){console.log('my name is pack!');}}}
     
