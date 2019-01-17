@@ -2,7 +2,7 @@
     window.ozzx = {
       script: {}
     };
-    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":false,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
+    var globalConfig = {"root":"/src","entry":"home","headFolder":"head","outFolder":"dist","autoPack":true,"minifyCss":false,"minifyJs":false,"pageFolder":"page","isOnePage":false};
   // 对象合并方法
 function assign(a, b) {
   var newObj = {}
@@ -114,7 +114,8 @@ function pgNameHandler (dom) {
       pgNameHandler(tempDom)
     }
   }
-}// 获取URL #后面内容
+}
+// 获取URL #后面内容
 function getarg(url){
   arg = url.split("#");
   return arg[1];

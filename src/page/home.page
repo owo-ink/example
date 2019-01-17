@@ -35,7 +35,7 @@
         console.log('可以传递参数:', othersName, myName)
         console.log('方便的获取到可能会用到的信息!')
         console.log(this)
-        // alert('Hellow ' + othersName + ', My name is ' + myName)
+        this.$el.innerText = `Hellow ${othersName}, My name is ${myName}`
       }
     }
   }
