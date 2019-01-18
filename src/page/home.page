@@ -3,12 +3,31 @@
     <h2>便于书写单页多界面网页</h2>
     <div>
       <a href="#home">home页面</a>
-      <a href="#name&animation=fadein">name页面</a>
+      <a href="#name">name页面</a>
     </div>
     <h2>内置多种页面切换效果</h2>
-    <div>
-      <a href="#name&animation=fadein">淡入效果</a>
-      <a href="#name&animation=fadeout">淡出效果</a>
+    <div class="animation">
+      <h4>移动/移出效果</h4>
+      <a href="#name&in=moveToLeft&out=moveFromRight">Move to left/ from right</a>
+      <a href="#name&in=moveToRight&out=moveFromLeft">Move to right/ from left</a>
+      <a href="#name&in=moveToTop&out=moveFromBottom">Move to top/ from bottom</a>
+      <a href="#name&in=moveToBottom&out=moveFromTop">Move to bottom/ from top</a>
+      <h4>淡入/淡出效果</h4>
+      <a href="#name&out=moveFromRight,ontop&in=fade">Fade / from right</a>
+      <a href="#name&out=moveFromLeft,ontop&in=fade">Fade / from left</a>
+      <a href="#name&out=moveFromBottom,ontop&in=fade">Fade / from bottom</a>
+      <a href="#name&out=moveFromTop,ontop&in=fade">Fade / from top</a>
+      <a href="#name&out=moveFromRightFade&in=moveToLeftFade">Fade left / Fade right</a>
+      <a href="#name&out=moveFromLeftFade&in=moveToRightFade">Fade right / Fade left</a>
+      <a href="#name&out=moveFromBottomFade&in=moveToTopFade">Fade top / Fade bottom</a>
+      <a href="#name&out=moveFromTopFade&in=moveToBottomFade">Fade bottom / Fade top</a>
+      <h4>轻松效果</h4>
+      <a href="#name&in=moveToLeftEasing,ontop&out=moveFromRight">Move to left/ from right</a>
+      <a href="#name&in=moveToRightEasing,ontop&out=moveFromLeft">Move to right/ from left</a>
+      <a href="#name&in=moveToTopEasing,ontop&out=moveFromBottom">Move to top/ from bottom</a>
+      <a href="#name&in=moveToBottomEasing,ontop&out=moveFromTop">Move to bottom/ from top</a>
+      <h4>比例效果</h4>
+      
     </div>
     <h2>更加方便的点击事件处理</h2>
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
@@ -52,5 +71,12 @@
     .click:hover {
       color: gold;
     }
+  }
+  .animation a {
+    background-color: #009fe9;
+    color: white;
+    padding: 5px;
+    line-height: 40px;
+    border-radius: 5px;
   }
 </style>
