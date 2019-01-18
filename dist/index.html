@@ -28,12 +28,37 @@
   </head>
   <body>
     <div class="ox ox-home" id="ox-home" style="display: none;"><div @name="example" class="example">
-    <h2>便于书写单页多界面网页</h2>
+    <div class="title">便于书写单页多界面网页</div>
     <div>
       <a href="#home">home页面</a>
       <a href="#name">name页面</a>
     </div>
-    <h2>内置多种页面切换效果</h2>
+    <div class="title">内置多种页面切换效果</div>
+      <a href="#animation">内置特效</a>
+    </div>
+    <div class="title">使用@click更方便的点击事件处理</div>
+    <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
+    <div class="title">使用v-for更方便地处理重复内容:</div>
+    <div class="for-box">
+      <p>rank1:0-lis like orange color!</p><p>rank2:1-kim like yellow color!</p><p>rank3:2-tony like white color!</p>
+    </div>
+  
+</div>
+    <div class="ox ox-name" id="ox-name" style="display: none;"><div class="ox ox-topBar"><div class="top-bar">
+    <div class="return-box" @click="return" template="topBar">
+      <svg t="1547798949662" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1946" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M781.566553 1011.699354L168.659015 540.690841c-20.402945-16.0254-20.402945-42.009075 0-58.034474L781.566553 11.647854c20.377345-16.0254 53.400932-16.0254 73.778278 0 20.377345 15.9998 20.377345 42.009075 0 58.008875L279.326431 511.686404l576.0184 442.004075c20.377345 15.9998 20.377345 41.983475 0 58.008875-20.377345 16.0254-53.400932 16.0254-73.778278 0z" p-id="1947"></path></svg>
+    <div>
+  </div>
+</div></div></div>
+  <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
+</div>
+    <div class="ox ox-animation" id="ox-animation" style="display: none;"><div class="topBar">
+    <div class="ox ox-topBar"><div class="top-bar">
+    <div class="return-box" @click="return" template="topBar">
+      <svg t="1547798949662" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1946" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M781.566553 1011.699354L168.659015 540.690841c-20.402945-16.0254-20.402945-42.009075 0-58.034474L781.566553 11.647854c20.377345-16.0254 53.400932-16.0254 73.778278 0 20.377345 15.9998 20.377345 42.009075 0 58.008875L279.326431 511.686404l576.0184 442.004075c20.377345 15.9998 20.377345 41.983475 0 58.008875-20.377345 16.0254-53.400932 16.0254-73.778278 0z" p-id="1947"></path></svg>
+    <div>
+  </div>
+</div></div></div>
     <div class="animation">
       <h4>移动/移出效果</h4>
       <a href="#name&amp;in=moveToLeft&amp;out=moveFromRight">Move to left/ from right</a>
@@ -55,20 +80,72 @@
       <a href="#name&amp;in=moveToTopEasing,ontop&amp;out=moveFromBottom">Move to top/ from bottom</a>
       <a href="#name&amp;in=moveToBottomEasing,ontop&amp;out=moveFromTop">Move to bottom/ from top</a>
       <h4>比例效果</h4>
-      
-    </div>
-    <h2>更加方便的点击事件处理</h2>
-    <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
-    <div class="for-box">
-      <p>rank1:0-lis like orange color!</p><p>rank2:1-kim like yellow color!</p><p>rank3:2-tony like white color!</p>
+      <a href="#name&amp;in=scaleDown&amp;out=moveFromRight,ontop">Scale down / from right</a>
+      <a href="#name&amp;in=scaleDown&amp;out=moveFromLeft,ontop">Scale down / from left</a>
+      <a href="#name&amp;in=scaleDown&amp;out=moveFromBottom,ontop">Scale down / from bottom</a>
+      <a href="#name&amp;in=scaleDown&amp;out=moveFromTop,ontop">Scale down / from top</a>
+      <a href="#name&amp;in=scaleDown&amp;out=scaleUpDown,delay300">Scale down / scale down</a>
+      <a href="#name&amp;in=scaleDownUp&amp;out=scaleUp,delay300">Scale up / scale up</a>
+      <a href="#name&amp;in=moveToLeft,ontop&amp;out=scaleUp">Move to left / scale up</a>
+      <a href="#name&amp;in=moveToRight,ontop&amp;out=scaleUp">Move to right / scale up</a>
+      <a href="#name&amp;in=moveToTop,ontop&amp;out=scaleUp">Move to top / scale up</a>
+      <a href="#name&amp;in=moveToBottom,ontop&amp;out=scaleUp">Move to bottom / scale up</a>
+      <a href="#name&amp;in=scaleDownCenter&amp;out=scaleUpCenter,delay400">Scale down / scale up</a>
+      <h4>旋转效果</h4>
+      <h5>胶棒</h5>
+      <a href="#name&amp;in=rotateRightSideFirst&amp;out=moveFromRight,delay200,ontop">Glue left / from right</a>
+      <a href="#name&amp;in=rotateLeftSideFirst&amp;out=moveFromLeft,delay200,ontop">Glue right / from left</a>
+      <a href="#name&amp;in=rotateTopSideFirst&amp;out=moveFromTop,delay200,ontop">Glue bottom / from top</a>
+      <a href="#name&amp;in=rotateBottomSideFirst&amp;out=moveFromBottom,delay200,ontop">Glue top / from bottom</a>
+      <h5>轻弹</h5>
+      <a href="#name&amp;in=flipOutRight&amp;out=flipInLeft,delay500">Flip right</a>
+      <a href="#name&amp;in=flipOutLeft&amp;out=flipInRight,delay500">Flip left</a>
+      <a href="#name&amp;in=flipOutTop&amp;out=flipInBottom,delay500">Flip top</a>
+      <a href="#name&amp;in=flipOutBottom&amp;out=flipInTop,delay500">Flip bottom</a>
+      <h5>落下</h5>
+      <a href="#name&amp;in=rotateFall,ontop&amp;out=scaleUp">Fall</a>
+      <h5>报纸</h5>
+      <a href="#name&amp;in=rotateOutNewspaper&amp;out=rotateInNewspaper,delay500">Newspaper</a>
+      <h5>推/拉</h5>
+      <a href="#name&amp;in=rotatePushLeft&amp;out=moveFromRight">Push left / from right</a>
+      <a href="#name&amp;in=rotatePushRight&amp;out=moveFromLeft">Push right / from left</a>
+      <a href="#name&amp;in=rotatePushTop&amp;out=moveFromBottom">Push top / from bottom</a>
+      <a href="#name&amp;in=rotatePushBottom&amp;out=moveFromTop">Push bottom / from top</a>
+
+      <a href="#name&amp;in=rotatePushLeft&amp;out=rotatePullRight,delay180">Push left / pull right</a>
+      <a href="#name&amp;in=rotatePushRight&amp;out=rotatePullLeft,delay180">Push right / pull left</a>
+      <a href="#name&amp;in=rotatePushTop&amp;out=rotatePullBottom,delay180">Push top / pull bottom</a>
+      <a href="#name&amp;in=rotatePushBottom&amp;out=rotatePullTop,delay180">Push bottom / pull top</a>
+      <h5>折叠/展开</h5>
+      <a href="#name&amp;in=rotateFoldLeft&amp;out=moveFromRightFade">Fold left / from right</a>
+      <a href="#name&amp;in=rotateFoldRight&amp;out=moveFromLeftFade">Fold right / from left</a>
+      <a href="#name&amp;in=rotateFoldTop&amp;out=moveFromBottomFade">Fold top / from bottom</a>
+      <a href="#name&amp;in=rotateFoldBottom&amp;out=moveFromTopFade">Fold bottom / from top</a>
+      <a href="#name&amp;in=moveToRightFade&amp;out=rotateUnfoldLeft">Move to right / unfold left</a>
+      <a href="#name&amp;in=moveToLeftFade&amp;out=rotateUnfoldRight">Move to left / unfold right</a>
+      <a href="#name&amp;in=moveToBottomFade&amp;out=rotateUnfoldTop">Move to bottom / unfold top</a>
+      <a href="#name&amp;in=moveToTopFade&amp;out=rotateUnfoldBottom">Move to top / unfold bottom</a>
+      <h5>房间</h5>
+      <a href="#name&amp;in=rotateRoomLeftOut,ontop&amp;out=rotateRoomLeftIn">Room to left</a>
+      <a href="#name&amp;in=rotateRoomRightOut,ontop&amp;out=rotateRoomRightIn">Room to right</a>
+      <a href="#name&amp;in=rotateRoomTopOut,ontop&amp;out=rotateRoomTopIn">Room to top</a>
+      <a href="#name&amp;in=rotateRoomBottomOut,ontop&amp;out=rotateRoomBottomIn">Room to bottom</a>
+      <h5>立方体</h5>
+      <a href="#name&amp;in=rotateCubeLeftOut,ontop&amp;out=rotateCubeLeftIn">Cube to left</a>
+      <a href="#name&amp;in=rotateCubeRightOut,ontop&amp;out=rotateCubeRightIn">Cube to right</a>
+      <a href="#name&amp;in=rotateCubeTopOut,ontop&amp;out=rotateCubeTopIn">Cube to top</a>
+      <a href="#name&amp;in=rotateCubeBottomOut,ontop&amp;out=rotateCubeBottomIn">Cube to bottom</a>
+      <h5>旋转木马</h5>
+      <a href="#name&amp;in=rotateCarouselLeftOut,ontop&amp;out=rotateCarouselLeftIn">Carousel to left</a>
+      <a href="#name&amp;in=rotateCarouselRightOut,ontop&amp;out=rotateCarouselRightIn">Carousel to right</a>
+      <a href="#name&amp;in=rotateCarouselTopOut,ontop&amp;out=rotateCarouselTopIn">Carousel to top</a>
+      <a href="#name&amp;in=rotateCarouselBottomOut,ontop&amp;out=rotateCarouselBottomIn">Carousel to bottom</a>
+      <h5>Sides</h5>
+      <a href="#name&amp;in=rotateSidesOut&amp;out=rotateSidesIn,delay200">Sides</a>
+      <h4>Slide</h4>
+      <a href="#name&amp;in=rotateSlideOut&amp;out=rotateSlideIn">Slide</a>
     </div>
   </div>
-</div>
-    <div class="ox ox-name" id="ox-name" style="display: none;"><div class="ox ox-http://puge.oss-cn-beijing.aliyuncs.com/ozzx/topBar.page"><div class="top-bar">
-    <a href="#home">返回</a>
-  </div>
-</div>
-  <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </div>
     <script src="./main.js" type="text/javascript"></script>
   </body>

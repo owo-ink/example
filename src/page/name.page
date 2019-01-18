@@ -1,5 +1,5 @@
 <template>
-  <temple name="http://puge.oss-cn-beijing.aliyuncs.com/ozzx/topBar.page"></temple>
+  <temple name="topBar"></temple>
   <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </template>
 
@@ -13,7 +13,7 @@
 
 <style>
   .example {
-    color: #009fe9;
+    color: white;
     height: 50px;
     width: 400px;
     line-height: 50px;
@@ -27,9 +27,11 @@
     font-size: 2rem;
   }
   a {
-    display: block;
+    background-color: #009fe9;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
     line-height: 40px;
-    font-size: 18px;
-    margin: 0;
+    border-radius: 5px;
   }
 </style>
