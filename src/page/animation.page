@@ -1,6 +1,6 @@
 <template>
-  <div class="topBar">
-    <temple name="topBar"></temple>
+  <div class="animation-box">
+    <temple name="http://ozzx.oss-cn-beijing.aliyuncs.com/topBar.page"></temple>
     <div class="animation">
       <h4>移动/移出效果</h4>
       <a href="#name&in=moveToLeft&out=moveFromRight">Move to left/ from right</a>
@@ -94,7 +94,6 @@
   .animation-box {
     width: 100%;
     height: 100%;
-    background-color: white;
   }
   .animation {
     padding: 10px;
