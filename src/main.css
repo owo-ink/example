@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+.ox {
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
 .ox-home {
   padding: 10px;
 }
