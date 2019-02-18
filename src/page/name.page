@@ -4,7 +4,7 @@
 </template>
 
 <script>
-  export default {
+  module.exports = {
     created: function () {
       console.log('my name is pack!')
     }
