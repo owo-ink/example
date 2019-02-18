@@ -1,5 +1,5 @@
 <template>
-  <temple name="http://ozzx.oss-cn-beijing.aliyuncs.com/topBar.page"></temple>
+  <temple name="http://cunchu.site/github/ozzx/topBar.page"></temple>
   <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </template>
 
