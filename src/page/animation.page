@@ -1,8 +1,8 @@
 <template>
   <div class="animation-box">
-    <temple name="http://cunchu.site/github/ozzx/topBar.page"></temple>
+    <temple name="topBar" src="http://cunchu.site/github/ozzx/topBar.page"></temple>
     <div class="animation">
-      <h4>移动/移出效果</h4>
+      <h4>移动/移出效果</h4> 
       <a href="#name&in=moveToLeft&out=moveFromRight">Move to left/ from right</a>
       <a href="#name&in=moveToRight&out=moveFromLeft">Move to right/ from left</a>
       <a href="#name&in=moveToTop&out=moveFromBottom">Move to top/ from bottom</a>

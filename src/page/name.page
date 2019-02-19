@@ -1,5 +1,5 @@
 <template>
-  <temple name="http://cunchu.site/github/ozzx/topBar.page"></temple>
+  <temple name="topBar" src="http://cunchu.site/github/ozzx/topBar.page"></temple>
   <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </template>
 
@@ -10,6 +10,7 @@
     }
   }
 </script>
+
 
 <style>
   .example {

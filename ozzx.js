@@ -1,20 +1,24 @@
 module.exports = {
   // 项目根目录
-  "root": "/src",
+  root: "/src",
   // 项目入口文件
-  "entry": "home",
+  entry: "home",
   // 输出目录
-  "outFolder": "dist",
+  outFolder: "./dist",
   // 是否监测文件改动重新打包
-  "autoPack": false,
+  autoPack: false,
+  // 监测文件发生改变目录
+  watcherFolder: './src',
   // 是否压缩css
-  "minifyCss": false,
+  minifyCss: false,
   // 是否压缩js
-  "minifyJs": false,
-  // 页面目录
-  "pageFolder": "page",
+  minifyJs: false,
   // 强制打包所有样式
-  "choiceAnimation": false,
+  choiceAnimation: false,
+  // 在全局样式文件
+  globalStyle: './src/main.css',
+  // 静态文件服务
+  server: true,
   // head属性清单
   headList: [
     {
@@ -42,14 +46,17 @@ module.exports = {
     {
       // 是否为页面主入口
       main: true,
+      isPage: true,
       name: 'home',
       src: './src/page/home.page'
     },
     {
+      isPage: true,
       name: 'name',
       src: './src/page/name.page'
     },
     {
+      isPage: true,
       name: 'animation',
       src: './src/page/animation.page'
     }
