@@ -6,7 +6,7 @@ module.exports = {
   // 输出目录
   outFolder: "./dist",
   // 是否监测文件改动重新打包
-  autoPack: false,
+  autoPack: true,
   // 监测文件发生改变目录
   watcherFolder: './src',
   // 是否压缩css
@@ -19,6 +19,10 @@ module.exports = {
   globalStyle: './src/main.css',
   // 静态文件服务
   server: true,
+  // 自动重新加载
+  autoReload: true,
+  // 输出文件自动追加版本号，可以用来消除缓存
+  outFileAddVersion: true,
   // head属性清单
   headList: [
     {
