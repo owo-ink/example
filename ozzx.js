@@ -7,37 +7,6 @@ module.exports = {
   title: '页面',
   // 输出目录
   outFolder: "./dist",
-  // 是否监测文件改动重新打包
-  watcher: {
-    // 是否启用
-    enable: true,
-    // 监控的文件夹 默认'./src'
-    folder: './src',
-    // 忽略监控的文件或文件夹，支持正则，默认为输出目录
-    ignored: './dist/*',
-    // 监测深度,默认99
-    depth: 99
-  },
-  // 输出配置
-  outPut: {
-    // 是否压缩css
-    minifyCss: false,
-    // 是否压缩js
-    minifyJs: false,
-    // 强制打包所有样式
-    choiceAnimation: false,
-    // 全局样式文件
-    globalStyle: './src/main.css',
-    // 全局js文件
-    globalScript: './src/main.js',
-    // 输出文件自动追加版本号，可以用来消除缓存
-    outFileAddVersion: true,
-  },
-  serverPort: 8000,
-  // 静态文件服务
-  server: true,
-  // 自动重新加载
-  autoReload: true,
   // head属性清单
   headList: [
     {
@@ -79,5 +48,61 @@ module.exports = {
       name: 'animation',
       src: './src/page/animation.page'
     }
-  ]
+  ],
+  // 调试模式配置
+  dev: {
+    // 是否监测文件改动重新打包
+    watcher: {
+      // 是否启用
+      enable: true,
+      // 监控的文件夹 默认'./src'
+      folder: './src',
+      // 忽略监控的文件或文件夹，支持正则，默认为输出目录
+      ignored: './dist/*',
+      // 监测深度,默认99
+      depth: 99
+    },
+    // 输出配置
+    outPut: {
+      // 是否压缩css
+      minifyCss: false,
+      // 是否压缩js
+      minifyJs: false,
+      // 强制打包所有样式
+      choiceAnimation: false,
+      // 手动指定样式列表
+      // useAnimationList: [],
+      // 全局样式文件
+      globalStyle: './src/main.css',
+      // 全局js文件
+      globalScript: './src/main.js',
+      // 输出文件自动追加版本号，可以用来消除缓存
+      outFileAddVersion: false,
+    },
+    serverPort: 8000,
+    // 静态文件服务
+    server: true,
+    // 自动重新加载
+    autoReload: true,
+  },
+  // 编译模式配置
+  build: {
+    // 输出配置
+    outPut: {
+      // 是否压缩css
+      minifyCss: true,
+      // 是否压缩js
+      minifyJs: true,
+      // 强制打包所有样式
+      choiceAnimation: false,
+      // 手动指定样式列表
+      // useAnimationList: [],
+      // 全局样式文件
+      globalStyle: './src/main.css',
+      // 全局js文件
+      globalScript: './src/main.js',
+      // 输出文件自动追加版本号，可以用来消除缓存
+      outFileAddVersion: true,
+    }
+  }
 }

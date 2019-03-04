@@ -10,9 +10,9 @@
     </div>
     <div class="title">使用@click更方便的处理点击事件</div>
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
-    <div class="title">使用v-for更方便地处理重复内容:</div>
+    <div class="title">使用@for更方便地处理重复内容:</div>
     <div class="for-box">
-      <p v-for="(value, key, index) in nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
+      <p @for="(value, key, index) in nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
     </div> 
   </div>
 </template>
@@ -27,7 +27,7 @@
       }
     },
     created: () => {
-      console.log('hellow word!')
+      $tool.toast('hellow word!')
     },
     methods: {
       showAlert: function (othersName, myName) {
