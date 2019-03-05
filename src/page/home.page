@@ -13,7 +13,16 @@
     <div class="title">使用@for更方便地处理重复内容:</div>
     <div class="for-box">
       <p @for="(value, key, index) in nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
-    </div> 
+    </div>
+    <div class="title">便于处理各种资源引用</div>
+    <div class="image-box">
+      <h4>1.处理html标签中的资源</h4>
+      <img src="@&grass.png&"/>
+      <h4>2.处理css标签中的资源</h4>
+      <div class="bg-image"></div>
+      <h4>3.处理js标签中的资源</h4>
+      <img src="" @name="jsImage"/>
+    </div>
   </div>
 </template>
 
@@ -28,6 +37,7 @@
     },
     created: () => {
       $tool.toast('hellow word!')
+      $dom('jsImage').src = '@&grass.png&'
     },
     methods: {
       showAlert: function (othersName, myName) {
@@ -57,5 +67,18 @@
     color: white;
     padding: 0 10px;
     margin: 5px 0;
+  }
+  .image-box {
+    img {
+      width: 150px;
+      margin: 10px;
+    }
+    .bg-image {
+      height: 60px;
+      margin: 10px;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-image: url('@&grass.png&');
+    }
   }
 </style>

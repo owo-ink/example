@@ -7,6 +7,8 @@ module.exports = {
   title: '页面',
   // 输出目录
   outFolder: "./dist",
+  // 资源目录
+  resourceFolder: "./src/resource",
   // head属性清单
   headList: [
     {
@@ -77,7 +79,7 @@ module.exports = {
       // 全局js文件
       globalScript: './src/main.js',
       // 输出文件自动追加版本号，可以用来消除缓存
-      outFileAddVersion: false,
+      outFileAddVersion: false
     },
     serverPort: 8000,
     // 静态文件服务
