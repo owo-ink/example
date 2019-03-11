@@ -1,0 +1,350 @@
+[2019-03-11T22:00:39.271] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:00:39.274] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:00:39.276] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:00:39.276] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:00:39.280] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:03:37.427] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:03:37.430] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:03:37.430] [INFO] main.js - 刷新模式!
+[2019-03-11T22:03:37.430] [INFO] main.js - 生成版本号: 5qmojmtlov7
+[2019-03-11T22:03:37.431] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:03:37.433] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:03:37.434] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:03:37.587] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:03:37.876] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:03:38.155] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:03:38.156] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:03:38.175] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:03:38.188] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:03:38.188] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:03:38.188] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:03:38.189] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:03:39.037] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:03:39.037] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:03:39.039] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:03:39.043] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:03:39.262] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:03:39.326] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:03:39.326] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:03:39.328] [INFO] main.js - 编译成功! 用时: 1901
+[2019-03-11T22:04:36.705] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:04:36.707] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:04:36.708] [INFO] main.js - 刷新模式,变化目录: undefined
+[2019-03-11T22:04:36.708] [INFO] main.js - 生成版本号: v53227091v
+[2019-03-11T22:04:36.710] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:04:36.712] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:04:36.712] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:04:36.867] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:04:37.147] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:04:37.400] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:04:37.400] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:04:37.419] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:04:37.432] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:04:37.432] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:04:37.432] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:04:37.434] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:04:38.277] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:04:38.277] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:04:38.279] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:04:38.283] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:04:38.499] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:04:38.564] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:04:38.565] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:04:38.567] [INFO] main.js - 编译成功! 用时: 1862
+[2019-03-11T22:08:56.180] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:08:56.182] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:08:56.182] [INFO] main.js - 首次启动!
+[2019-03-11T22:08:56.182] [INFO] main.js - 生成版本号: 8jokh9y41z2
+[2019-03-11T22:08:56.185] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:08:56.187] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:08:56.187] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:08:56.187] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T22:08:56.187] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T22:08:56.187] [DEBUG] main.js - 处理页面源信息列表: [object Object],[object Object]
+[2019-03-11T22:08:56.344] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:08:56.621] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:08:56.878] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:08:56.878] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:08:56.897] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:08:56.911] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:08:56.911] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:08:56.911] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:08:56.913] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:08:57.745] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:08:57.745] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:08:57.747] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:08:57.751] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:08:57.972] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:08:58.037] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:08:58.037] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:08:58.039] [INFO] main.js - 编译成功! 用时: 1859
+[2019-03-11T22:09:31.750] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:09:31.752] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:09:31.752] [INFO] main.js - 首次启动!
+[2019-03-11T22:09:31.752] [INFO] main.js - 生成版本号: khckqzj1nh
+[2019-03-11T22:09:31.755] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:09:31.757] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:09:31.757] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:09:31.757] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T22:09:31.757] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T22:09:31.757] [DEBUG] main.js - 处理页面源信息列表: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T22:09:31.916] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:09:32.197] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:09:32.462] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:09:32.462] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:09:32.481] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:09:32.494] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:09:32.495] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:09:32.495] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:09:32.496] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:09:33.333] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:09:33.334] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:09:33.335] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:09:33.339] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:09:33.557] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:09:33.615] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:09:33.619] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:09:33.621] [INFO] main.js - 编译成功! 用时: 1872
+[2019-03-11T22:18:35.267] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:18:35.270] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:18:35.270] [INFO] main.js - 首次启动!
+[2019-03-11T22:18:35.270] [INFO] main.js - 生成版本号: 5g4pxckklvc
+[2019-03-11T22:18:35.270] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:18:35.271] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:18:35.271] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:18:35.271] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T22:18:35.271] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T22:18:35.271] [DEBUG] main.js - 处理页面源信息列表: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T22:18:35.429] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:18:35.693] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:18:35.944] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:18:35.944] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:18:35.962] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:18:35.975] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:18:35.975] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:18:35.975] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:18:35.977] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:18:36.803] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:18:36.803] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:18:36.805] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:18:36.808] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:18:37.069] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:18:37.089] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:18:37.090] [INFO] main.js - 编译成功! 用时: 1823
+[2019-03-11T22:18:37.090] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:22:45.655] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:22:45.657] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:22:45.657] [INFO] main.js - 首次启动!
+[2019-03-11T22:22:45.657] [INFO] main.js - 生成版本号: zeylwkempua
+[2019-03-11T22:22:45.660] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:22:45.660] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:22:45.661] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:22:45.661] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T22:22:45.661] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T22:22:45.661] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T22:22:45.814] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:22:46.242] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:22:46.509] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:22:46.510] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:22:46.528] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:22:46.541] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:22:46.541] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:22:46.541] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:22:46.543] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:22:47.392] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:22:47.392] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:22:47.393] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:22:47.397] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:22:47.660] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:22:47.675] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:22:47.677] [INFO] main.js - 编译成功! 用时: 2022
+[2019-03-11T22:22:47.677] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:40:59.988] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T22:40:59.990] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T22:40:59.990] [INFO] main.js - 首次启动!
+[2019-03-11T22:40:59.990] [INFO] main.js - 生成版本号: p04wyldtzr
+[2019-03-11T22:40:59.993] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:40:59.993] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:40:59.993] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T22:40:59.993] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T22:40:59.994] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T22:40:59.994] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T22:41:00.148] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:41:00.640] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T22:41:00.918] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:41:00.918] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T22:41:00.934] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T22:41:00.947] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:41:00.947] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T22:41:00.947] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T22:41:00.948] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T22:41:01.794] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:41:01.794] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T22:41:01.795] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:41:01.799] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T22:41:02.014] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T22:41:02.078] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T22:41:02.078] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T22:41:02.080] [INFO] main.js - 编译成功! 用时: 2093
+[2019-03-11T23:08:21.440] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:08:21.442] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:08:21.442] [INFO] main.js - 首次启动!
+[2019-03-11T23:08:21.442] [INFO] main.js - 生成版本号: zr20vlu6x0d
+[2019-03-11T23:08:21.446] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:08:21.446] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:08:21.446] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:08:21.446] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:08:21.446] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:08:21.446] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:08:21.606] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:08:22.023] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:08:22.305] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:08:22.305] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:08:22.321] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:08:22.333] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:08:22.334] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:08:22.334] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:08:22.335] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:08:23.183] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:08:23.184] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:08:23.185] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:08:23.188] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:08:23.404] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:08:23.467] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T23:08:23.467] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:08:23.468] [INFO] main.js - 编译成功! 用时: 2028
+[2019-03-11T23:10:41.134] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:10:41.136] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:10:41.136] [INFO] main.js - 首次启动!
+[2019-03-11T23:10:41.136] [INFO] main.js - 生成版本号: q5ha2vfeg6j
+[2019-03-11T23:10:41.138] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:10:41.138] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:10:41.138] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:10:41.138] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:10:41.138] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:10:41.138] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:10:41.300] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:10:41.568] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:10:41.837] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:10:41.838] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:10:41.853] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:10:41.866] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:10:41.866] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:10:41.866] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:10:41.867] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:10:42.695] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:10:42.695] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:10:42.697] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:10:42.700] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:10:42.961] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:10:42.978] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:10:42.979] [INFO] main.js - 编译成功! 用时: 1846
+[2019-03-11T23:10:42.980] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T23:11:37.202] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:11:37.205] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:11:37.205] [INFO] main.js - 首次启动!
+[2019-03-11T23:11:37.205] [INFO] main.js - 生成版本号: ad3l3yk90fr
+[2019-03-11T23:11:37.208] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:11:37.208] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:11:37.208] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:11:37.208] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:11:37.208] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:11:37.208] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:11:37.362] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:11:37.633] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:11:37.897] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:11:37.898] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:11:37.914] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:11:37.927] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:11:37.927] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:11:37.927] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:11:37.929] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:11:38.824] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:11:38.825] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:11:38.826] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:11:38.830] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:11:39.092] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:11:39.112] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T23:11:39.112] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:11:39.114] [INFO] main.js - 编译成功! 用时: 1912
+[2019-03-11T23:19:53.251] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:19:53.253] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:19:53.253] [INFO] main.js - 首次启动!
+[2019-03-11T23:19:53.253] [INFO] main.js - 生成版本号: bozhn0bwyt8
+[2019-03-11T23:19:53.256] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:19:53.256] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:19:53.257] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:19:53.257] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:19:53.257] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:19:53.257] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:19:53.416] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:19:53.688] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:19:53.948] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:19:53.948] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:19:53.964] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:19:53.976] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:19:53.976] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:19:53.976] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:19:53.977] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:19:54.854] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:19:54.854] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:19:54.855] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:19:54.859] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:19:55.073] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:19:55.142] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T23:19:55.143] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:19:55.144] [INFO] main.js - 编译成功! 用时: 1893
+[2019-03-11T23:22:19.758] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:22:19.760] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:22:19.760] [INFO] main.js - 首次启动!
+[2019-03-11T23:22:19.760] [INFO] main.js - 生成版本号: gq7xcjkit9
+[2019-03-11T23:22:19.763] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:22:19.763] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:22:19.763] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:22:19.763] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:22:19.763] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:22:19.763] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:22:19.916] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:22:20.185] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:22:20.451] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:22:20.452] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:22:20.467] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:22:20.480] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:22:20.480] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:22:20.480] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:22:20.481] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:22:21.341] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:22:21.341] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:22:21.342] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:22:21.346] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:22:21.609] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:22:21.624] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:22:21.625] [INFO] main.js - 编译成功! 用时: 1868
+[2019-03-11T23:22:21.625] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-11T23:33:09.572] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-11T23:33:09.574] [INFO] main.js - 程序运行目录: C:\Users\my\Documents\GitHub\example
+[2019-03-11T23:33:09.574] [INFO] main.js - 首次启动!
+[2019-03-11T23:33:09.574] [INFO] main.js - 生成版本号: czsaorrenxt
+[2019-03-11T23:33:09.577] [INFO] main.js - 清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:33:09.577] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:33:09.578] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static
+[2019-03-11T23:33:09.578] [INFO] main.js - 读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html
+[2019-03-11T23:33:09.578] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-11T23:33:09.578] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-11T23:33:09.737] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:33:10.105] [DEBUG] index.js - 处理模板: http://cunchu.site/github/ozzx/topBar.page
+[2019-03-11T23:33:10.378] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:33:10.378] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource
+[2019-03-11T23:33:10.393] [INFO] main.js - 工程中包含多个页面!
+[2019-03-11T23:33:10.406] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:33:10.406] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css
+[2019-03-11T23:33:10.406] [INFO] main.js - 写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-11T23:33:10.408] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-11T23:33:11.292] [INFO] tool.js - 文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:33:11.294] [INFO] tool.js - 创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js
+[2019-03-11T23:33:11.295] [INFO] tool.js - 读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:33:11.298] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-11T23:33:11.562] [INFO] tool.js - 读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js
+[2019-03-11T23:33:11.579] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-11T23:33:11.580] [INFO] main.js - 编译成功! 用时: 2008
+[2019-03-11T23:33:11.580] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js

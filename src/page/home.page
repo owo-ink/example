@@ -38,13 +38,11 @@
       $tool.toast('hellow word!')
       $dom('jsImage').src = '@&grass.png&'
     },
-    methods: {
-      showAlert: function (othersName, myName) {
-        console.log('可以传递参数:', othersName, myName)
-        console.log('方便的获取到可能会用到的信息!')
-        console.log(this)
-        this.$el.innerText = `Hellow ${othersName}, My name is ${myName}`
-      }
+    showAlert: function (othersName, myName) {
+      console.log('可以传递参数:', othersName, myName)
+      console.log('方便的获取到可能会用到的信息!')
+      console.log(this)
+      this.$el.innerText = `Hellow ${othersName}, My name is ${myName}`
     }
   }
 </script>
