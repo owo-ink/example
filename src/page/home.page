@@ -6,8 +6,7 @@
       <a href="#name">name页面</a>
     </div>
     <div class="title">内置多种页面切换效果</div>
-      <a href="#animation">内置特效</a>
-    </div>
+    <a href="#animation">内置特效</a>
     <div class="title">使用@click更方便的处理点击事件</div>
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
     <div class="title">使用@for更方便地处理重复内容:</div>
@@ -19,7 +18,7 @@
       <h4>1.处理html标签中的资源</h4>
       <img src="@&grass.png&"/>
       <h4>2.处理css标签中的资源</h4>
-      <div class="bg-image"></div>
+      <div class="image"></div>
       <h4>3.处理js标签中的资源</h4>
       <img src="" @name="jsImage"/>
     </div>
@@ -73,7 +72,7 @@
       width: 150px;
       margin: 10px;
     }
-    .bg-image {
+    .image {
       height: 60px;
       margin: 10px;
       background-repeat: no-repeat;

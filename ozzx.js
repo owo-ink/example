@@ -70,8 +70,6 @@ module.exports = {
       minifyCss: false,
       // 是否压缩js
       minifyJs: false,
-      // 强制打包所有样式
-      choiceAnimation: false,
       // 手动指定样式列表
       // useAnimationList: [],
       // 全局样式文件
@@ -95,10 +93,6 @@ module.exports = {
       minifyCss: true,
       // 是否压缩js
       minifyJs: true,
-      // 强制打包所有样式
-      choiceAnimation: false,
-      // 手动指定样式列表
-      // useAnimationList: [],
       // 全局样式文件
       globalStyle: './src/main.css',
       // 全局js文件
