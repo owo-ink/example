@@ -1,94 +1,107 @@
 <template>
-  <div class="animation-box">
-    <temple name="topBar" src="http://cunchu.site/github/ozzx/topBar.page"></temple>
+  <div class="animation-box')">
+    <temple name="topBar" src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page"></temple>
     <div class="animation">
-      <h4>移动/移出效果</h4> 
-      <a href="#name&in=moveToLeft&out=moveFromRight">Move to left/ from right</a>
-      <a href="#name&in=moveToRight&out=moveFromLeft">Move to right/ from left</a>
-      <a href="#name&in=moveToTop&out=moveFromBottom">Move to top/ from bottom</a>
-      <a href="#name&in=moveToBottom&out=moveFromTop">Move to bottom/ from top</a>
+      <h4>移动/移出效果</h4>
+      <div class="button" @click="$go('name', 'moveToLeft', 'moveFromRight')">Move to left/ from right</div>
+      <div class="button" @click="$go('name', 'moveToRight', 'moveFromLeft')">Move to right/ from left</div>
+      <div class="button" @click="$go('name', 'moveToTop', 'moveFromBottom')">Move to top/ from bottom</div>
+      <div class="button" @click="$go('name', 'moveToBottom', 'moveFromTop')">Move to bottom/ from top</div>
+      <div class="clear"></div>
       <h4>淡入/淡出效果</h4>
-      <a href="#name&out=moveFromRight&in=fade">Fade / from right</a>
-      <a href="#name&out=moveFromLeft&in=fade">Fade / from left</a>
-      <a href="#name&out=moveFromBottom&in=fade">Fade / from bottom</a>
-      <a href="#name&out=moveFromTop&in=fade">Fade / from top</a>
-      <a href="#name&out=moveFromRightFade&in=moveToLeftFade">Fade left / Fade right</a>
-      <a href="#name&out=moveFromLeftFade&in=moveToRightFade">Fade right / Fade left</a>
-      <a href="#name&out=moveFromBottomFade&in=moveToTopFade">Fade top / Fade bottom</a>
-      <a href="#name&out=moveFromTopFade&in=moveToBottomFade">Fade bottom / Fade top</a>
+      <div class="button" @click="$go('name', 'moveFromRight', 'fade')">Fade / from right</div>
+      <div class="button" @click="$go('name', 'moveFromLeft', 'fade')">Fade / from left</div>
+      <div class="button" @click="$go('name', 'moveFromBottom', 'fade')">Fade / from bottom</div>
+      <div class="button" @click="$go('name', 'moveFromTop', 'fade')">Fade / from top</div>
+      <div class="button" @click="$go('name', 'moveFromRightFade', 'moveToLeftFade')">Fade left / Fade right</div>
+      <div class="clear"></div>
       <h4>轻松效果</h4>
-      <a href="#name&in=moveToLeftEasing&out=moveFromRight">Move to left/ from right</a>
-      <a href="#name&in=moveToRightEasing&out=moveFromLeft">Move to right/ from left</a>
-      <a href="#name&in=moveToTopEasing&out=moveFromBottom">Move to top/ from bottom</a>
-      <a href="#name&in=moveToBottomEasing&out=moveFromTop">Move to bottom/ from top</a>
+      <div class="button" @click="$go('name', 'moveToLeftEasing', 'moveFromRight')">Move to left/ from right</div>
+      <div class="button" @click="$go('name', 'moveToRightEasing', 'moveFromLeft')">Move to right/ from left</div>
+      <div class="button" @click="$go('name', 'moveToTopEasing', 'moveFromBottom')">Move to top/ from bottom</div>
+      <div class="button" @click="$go('name', 'moveToBottomEasing', 'moveFromTop')">Move to bottom/ from top</div>
+      <div class="clear"></div>
       <h4>比例效果</h4>
-      <a href="#name&in=scaleDown&out=moveFromRight">Scale down / from right</a>
-      <a href="#name&in=scaleDown&out=moveFromLeft">Scale down / from left</a>
-      <a href="#name&in=scaleDown&out=moveFromBottom">Scale down / from bottom</a>
-      <a href="#name&in=scaleDown&out=moveFromTop">Scale down / from top</a>
-      <a href="#name&in=scaleDown&out=scaleUpDown,delay300">Scale down / scale down</a>
-      <a href="#name&in=scaleDownUp&out=scaleUp,delay300">Scale up / scale up</a>
-      <a href="#name&in=moveToLeft&out=scaleUp">Move to left / scale up</a>
-      <a href="#name&in=moveToRight&out=scaleUp">Move to right / scale up</a>
-      <a href="#name&in=moveToTop&out=scaleUp">Move to top / scale up</a>
-      <a href="#name&in=moveToBottom&out=scaleUp">Move to bottom / scale up</a>
-      <a href="#name&in=scaleDownCenter&out=scaleUpCenter,delay400">Scale down / scale up</a>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromRight')">Scale down / from right</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromLeft')">Scale down / from left</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromBottom')">Scale down / from bottom</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromTop')">Scale down / from top</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'scaleUpDown')">Scale down / scale down</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'scaleUp')">Scale up / scale up</div>
+      <div class="button" @click="$go('name', 'moveToLeft', 'scaleUp')">Move to left / scale up</div>
+      <div class="button" @click="$go('name', 'moveToRight', 'scaleUp')">Move to right / scale up</div>
+      <div class="button" @click="$go('name', 'moveToTop', 'scaleUp')">Move to top / scale up</div>
+      <div class="button" @click="$go('name', 'moveToBottom', 'scaleUp')">Move to bottom / scale up</div>
+      <div class="button" @click="$go('name', 'scaleDownCenter', 'scaleUpCenter')">Scale down / scale up</div>
+      <div class="clear"></div>
       <h4>旋转效果</h4>
       <h5>胶棒</h5>
-      <a href="#name&in=rotateRightSideFirst&out=moveFromRight,delay200">Glue left / from right</a>
-      <a href="#name&in=rotateLeftSideFirst&out=moveFromLeft,delay200">Glue right / from left</a>
-      <a href="#name&in=rotateTopSideFirst&out=moveFromTop,delay200">Glue bottom / from top</a>
-      <a href="#name&in=rotateBottomSideFirst&out=moveFromBottom,delay200">Glue top / from bottom</a>
+      <div class="button" @click="$go('name', 'rotateRightSideFirst', 'moveFromRight')">Glue left / from right</div>
+      <div class="button" @click="$go('name', 'rotateLeftSideFirst', 'moveFromLeft')">Glue right / from left</div>
+      <div class="button" @click="$go('name', 'rotateTopSideFirst', 'moveFromTop')">Glue bottom / from top</div>
+      <div class="button" @click="$go('name', 'rotateBottomSideFirst', 'moveFromBottom')">Glue top / from bottom</div>
+      <div class="clear"></div>
       <h5>轻弹</h5>
-      <a href="#name&in=flipOutRight&out=flipInLeft,delay500">Flip right</a>
-      <a href="#name&in=flipOutLeft&out=flipInRight,delay500">Flip left</a>
-      <a href="#name&in=flipOutTop&out=flipInBottom,delay500">Flip top</a>
-      <a href="#name&in=flipOutBottom&out=flipInTop,delay500">Flip bottom</a>
+      <div class="button" @click="$go('name', 'flipOutRight', 'flipInLeft,delay500')">Flip right</div>
+      <div class="button" @click="$go('name', 'flipOutLeft', 'flipInRight,delay500')">Flip left</div>
+      <div class="button" @click="$go('name', 'flipOutTop', 'flipInBottom,delay500')">Flip top</div>
+      <div class="button" @click="$go('name', 'flipOutBottom', 'flipInTop,delay500')">Flip bottom</div>
+      <div class="clear"></div>
       <h5>落下</h5>
-      <a href="#name&in=rotateFall&out=scaleUp">Fall</a>
+      <div class="button" @click="$go('name', 'rotateFall', 'scaleUp')">Fall</div>
+      <div class="clear"></div>
       <h5>报纸</h5>
-      <a href="#name&in=rotateOutNewspaper&out=rotateInNewspaper,delay500">Newspaper</a>
+      <div class="button" @click="$go('name', 'rotateOutNewspaper', 'rotateInNewspaper,delay500')">Newspaper</div>
+      <div class="clear"></div>
       <h5>推/拉</h5>
-      <a href="#name&in=rotatePushLeft&out=moveFromRight">Push left / from right</a>
-      <a href="#name&in=rotatePushRight&out=moveFromLeft">Push right / from left</a>
-      <a href="#name&in=rotatePushTop&out=moveFromBottom">Push top / from bottom</a>
-      <a href="#name&in=rotatePushBottom&out=moveFromTop">Push bottom / from top</a>
+      <div class="button" @click="$go('name', 'rotatePushLeft', 'moveFromRight')">Push left / from right</div>
+      <div class="button" @click="$go('name', 'rotatePushRight', 'moveFromLeft')">Push right / from left</div>
+      <div class="button" @click="$go('name', 'rotatePushTop', 'moveFromBottom')">Push top / from bottom</div>
+      <div class="button" @click="$go('name', 'rotatePushBottom', 'moveFromTop')">Push bottom / from top</div>
 
-      <a href="#name&in=rotatePushLeft&out=rotatePullRight,delay180">Push left / pull right</a>
-      <a href="#name&in=rotatePushRight&out=rotatePullLeft,delay180">Push right / pull left</a>
-      <a href="#name&in=rotatePushTop&out=rotatePullBottom,delay180">Push top / pull bottom</a>
-      <a href="#name&in=rotatePushBottom&out=rotatePullTop,delay180">Push bottom / pull top</a>
+      <div class="button" @click="$go('name', 'rotatePushLeft', 'rotatePullRight')">Push left / pull right</div>
+      <div class="button" @click="$go('name', 'rotatePushRight', 'rotatePullLeft')">Push right / pull left</div>
+      <div class="button" @click="$go('name', 'rotatePushTop', 'rotatePullBottom')">Push top / pull bottom</div>
+      <div class="button" @click="$go('name', 'rotatePushBottom', 'rotatePullTop')">Push bottom / pull top</div>
+      <div class="clear"></div>
       <h5>折叠/展开</h5>
-      <a href="#name&in=rotateFoldLeft&out=moveFromRightFade">Fold left / from right</a>
-      <a href="#name&in=rotateFoldRight&out=moveFromLeftFade">Fold right / from left</a>
-      <a href="#name&in=rotateFoldTop&out=moveFromBottomFade">Fold top / from bottom</a>
-      <a href="#name&in=rotateFoldBottom&out=moveFromTopFade">Fold bottom / from top</a>
-      <a href="#name&in=moveToRightFade&out=rotateUnfoldLeft">Move to right / unfold left</a>
-      <a href="#name&in=moveToLeftFade&out=rotateUnfoldRight">Move to left / unfold right</a>
-      <a href="#name&in=moveToBottomFade&out=rotateUnfoldTop">Move to bottom / unfold top</a>
-      <a href="#name&in=moveToTopFade&out=rotateUnfoldBottom">Move to top / unfold bottom</a>
+      <div class="button" @click="$go('name', 'rotateFoldLeft', 'moveFromRightFade')">Fold left / from right</div>
+      <div class="button" @click="$go('name', 'rotateFoldRight', 'moveFromLeftFade')">Fold right / from left</div>
+      <div class="button" @click="$go('name', 'rotateFoldTop', 'moveFromBottomFade')">Fold top / from bottom</div>
+      <div class="button" @click="$go('name', 'rotateFoldBottom', 'moveFromTopFade')">Fold bottom / from top</div>
+      <div class="button" @click="$go('name', 'moveToRightFade', 'rotateUnfoldLeft')">Move to right / unfold left</div>
+      <div class="button" @click="$go('name', 'moveToLeftFade', 'rotateUnfoldRight')">Move to left / unfold right</div>
+      <div class="button" @click="$go('name', 'moveToBottomFade', 'rotateUnfoldTop')">Move to bottom / unfold top</div>
+      <div class="button" @click="$go('name', 'moveToTopFade', 'rotateUnfoldBottom')">Move to top / unfold bottom</div>
+      <div class="clear"></div>
       <h5>房间</h5>
-      <a href="#name&in=rotateRoomLeftOut&out=rotateRoomLeftIn">Room to left</a>
-      <a href="#name&in=rotateRoomRightOut&out=rotateRoomRightIn">Room to right</a>
-      <a href="#name&in=rotateRoomTopOut&out=rotateRoomTopIn">Room to top</a>
-      <a href="#name&in=rotateRoomBottomOut&out=rotateRoomBottomIn">Room to bottom</a>
+      <div class="button" @click="$go('name', 'rotateRoomLeftOut', 'rotateRoomLeftIn')">Room to left</div>
+      <div class="button" @click="$go('name', 'rotateRoomRightOut', 'rotateRoomRightIn')">Room to right</div>
+      <div class="button" @click="$go('name', 'rotateRoomTopOut', 'rotateRoomTopIn')">Room to top</div>
+      <div class="button" @click="$go('name', 'rotateRoomBottomOut', 'rotateRoomBottomIn')">Room to bottom</div>
+      <div class="clear"></div>
       <h5>立方体</h5>
-      <a href="#name&in=rotateCubeLeftOut&out=rotateCubeLeftIn">Cube to left</a>
-      <a href="#name&in=rotateCubeRightOut&out=rotateCubeRightIn">Cube to right</a>
-      <a href="#name&in=rotateCubeTopOut&out=rotateCubeTopIn">Cube to top</a>
-      <a href="#name&in=rotateCubeBottomOut&out=rotateCubeBottomIn">Cube to bottom</a>
+      <div class="button" @click="$go('name', 'rotateCubeLeftOut', 'rotateCubeLeftIn')">Cube to left</div>
+      <div class="button" @click="$go('name', 'rotateCubeRightOut', 'rotateCubeRightIn')">Cube to right</div>
+      <div class="button" @click="$go('name', 'rotateCubeTopOut', 'rotateCubeTopIn')">Cube to top</div>
+      <div class="button" @click="$go('name', 'rotateCubeBottomOut', 'rotateCubeBottomIn')">Cube to bottom</div>
+      <div class="clear"></div>
       <h5>旋转木马</h5>
-      <a href="#name&in=rotateCarouselLeftOut&out=rotateCarouselLeftIn">Carousel to left</a>
-      <a href="#name&in=rotateCarouselRightOut&out=rotateCarouselRightIn">Carousel to right</a>
-      <a href="#name&in=rotateCarouselTopOut&out=rotateCarouselTopIn">Carousel to top</a>
-      <a href="#name&in=rotateCarouselBottomOut&out=rotateCarouselBottomIn">Carousel to bottom</a>
+      <div class="button" @click="$go('name', 'rotateCarouselLeftOut', 'rotateCarouselLeftIn')">Carousel to left</div>
+      <div class="button" @click="$go('name', 'rotateCarouselRightOut', 'rotateCarouselRightIn')">Carousel to right</div>
+      <div class="button" @click="$go('name', 'rotateCarouselTopOut', 'rotateCarouselTopIn')">Carousel to top</div>
+      <div class="button" @click="$go('name', 'rotateCarouselBottomOut', 'rotateCarouselBottomIn')">Carousel to bottom</div>
+      <div class="clear"></div>
       <h5>Sides</h5>
-      <a href="#name&in=rotateSidesOut&out=rotateSidesIn,delay200">Sides</a>
+      <div class="button" @click="$go('name', 'rotateSidesOut', 'rotateSidesIn')">Sides</div>
+      <div class="clear"></div>
       <h4>Slide</h4>
-      <a href="#name&in=rotateSlideOut&out=rotateSlideIn">Slide</a>
+      <div class="button" @click="$go('name', 'rotateSlideOut', 'rotateSlideIn')">Slide</div>
+      <div class="clear"></div>
     </div>
   </div>
 </template>
+
 
 <style>
   .animation-box {
@@ -98,11 +111,15 @@
   .animation {
     padding: 10px;
   }
-  .animation a {
+  .button {
     background-color: skyblue;
     color: white;
     padding: 5px;
-    line-height: 40px;
+    line-height: 25px;
     border-radius: 5px;
+    width: 151px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
   }
 </style>

@@ -81,9 +81,9 @@ module.exports = {
     },
     serverPort: 8000,
     // 静态文件服务
-    server: true,
+    server: false,
     // 自动重新加载
-    autoReload: true,
+    autoReload: false,
   },
   // 编译模式配置
   build: {

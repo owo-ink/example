@@ -348,3 +348,724 @@
 [2019-03-11T23:33:11.579] [INFO] main.js - 使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js
 [2019-03-11T23:33:11.580] [INFO] main.js - 编译成功! 用时: 2008
 [2019-03-11T23:33:11.580] [INFO] tool.js - 写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-12T15:22:09.195] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T15:22:09.197] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T15:22:09.197] [INFO] main.js - 首次启动!
+[2019-03-12T15:22:09.197] [INFO] main.js - 生成版本号: 77jhj1h69tp
+[2019-03-12T15:22:09.198] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:22:09.198] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:22:09.198] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:22:09.198] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T15:22:09.198] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T15:22:09.198] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T15:22:09.338] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:22:09.725] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:22:10.092] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:22:10.092] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:22:10.107] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T15:22:10.120] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:22:10.120] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:22:10.120] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T15:22:10.121] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T15:22:11.274] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:22:11.274] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:22:11.275] [INFO] tool.js - 读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-03-12T15:22:11.278] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-12T15:22:11.620] [INFO] tool.js - 读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-03-12T15:22:11.665] [INFO] tool.js - 写入文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-12T15:22:11.665] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T15:22:11.667] [INFO] main.js - Compile successfully, Use time: 2472 msec!
+[2019-03-12T15:26:33.535] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T15:26:33.538] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T15:26:33.538] [INFO] main.js - 首次启动!
+[2019-03-12T15:26:33.538] [INFO] main.js - 生成版本号: 0may0wd6fzol
+[2019-03-12T15:26:33.541] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:26:33.541] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:26:33.541] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:26:33.541] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T15:26:33.541] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T15:26:33.541] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T15:26:33.670] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:26:35.170] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:26:35.632] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:26:35.633] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:26:35.646] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T15:26:35.656] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:26:35.656] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:26:35.656] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T15:26:35.657] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T15:26:36.371] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:26:36.372] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:26:36.374] [INFO] tool.js - 读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-03-12T15:26:36.377] [INFO] main.js - 服务器运行在: 127.0.0.1:8000
+[2019-03-12T15:26:36.558] [INFO] tool.js - 读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js
+[2019-03-12T15:26:36.807] [INFO] tool.js - 写入文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\autoReload.js
+[2019-03-12T15:26:36.808] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T15:26:36.810] [INFO] main.js - Compile successfully, Use time: 3275 msec!
+[2019-03-12T15:48:49.412] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T15:48:49.414] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T15:48:49.414] [INFO] main.js - 首次启动!
+[2019-03-12T15:48:49.414] [INFO] main.js - 生成版本号: s9tg84mhvz8
+[2019-03-12T15:48:49.417] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:48:49.417] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:48:49.417] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T15:48:49.417] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T15:48:49.417] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T15:48:49.417] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T15:48:49.543] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:48:50.050] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T15:48:50.489] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:48:50.490] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T15:48:50.503] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T15:48:50.513] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:48:50.513] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T15:48:50.513] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T15:48:50.514] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T15:48:51.196] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:48:51.197] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T15:48:51.428] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T15:48:51.430] [INFO] main.js - Compile successfully, Use time: 2018 msec!
+[2019-03-12T16:00:42.514] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:00:42.516] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:00:42.516] [INFO] main.js - 首次启动!
+[2019-03-12T16:00:42.516] [INFO] main.js - 生成版本号: v8hk4zwtaui
+[2019-03-12T16:00:42.516] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:00:42.517] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:00:42.517] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:00:42.517] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:00:42.517] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:00:42.517] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:00:42.645] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:00:43.053] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:00:43.464] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:00:43.464] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:00:43.478] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:00:43.488] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:00:43.488] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:00:43.488] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:00:43.488] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:00:43.488] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:00:43.490] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:00:44.246] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:00:44.246] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:00:44.572] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:00:44.574] [INFO] main.js - Compile successfully, Use time: 2060 msec!
+[2019-03-12T16:01:04.237] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:01:04.239] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:01:04.240] [INFO] main.js - 首次启动!
+[2019-03-12T16:01:04.240] [INFO] main.js - 生成版本号: 0b63b00vifvm
+[2019-03-12T16:01:04.242] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:04.242] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:04.243] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:04.243] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:01:04.243] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:01:04.243] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:01:04.377] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:01:05.878] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:01:06.293] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:01:06.293] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:01:06.308] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:01:06.318] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:01:06.318] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:01:06.318] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:01:06.318] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:01:06.319] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:01:06.320] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:01:07.039] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:01:07.039] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:01:07.499] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:01:07.501] [INFO] main.js - Compile successfully, Use time: 3264 msec!
+[2019-03-12T16:01:40.190] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:01:40.192] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:01:40.193] [INFO] main.js - 首次启动!
+[2019-03-12T16:01:40.193] [INFO] main.js - 生成版本号: awklp9og4zc
+[2019-03-12T16:01:40.195] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:40.195] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:40.196] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:01:40.196] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:01:40.196] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:01:40.196] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:01:40.321] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:01:41.758] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:01:42.139] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:01:42.139] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:01:42.156] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:01:42.166] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:01:42.167] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:01:42.167] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:01:42.167] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:01:42.167] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:01:42.168] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:01:42.886] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:01:42.886] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:01:43.625] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:01:43.627] [INFO] main.js - Compile successfully, Use time: 3437 msec!
+[2019-03-12T16:05:27.583] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:05:27.585] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:05:27.585] [INFO] main.js - 首次启动!
+[2019-03-12T16:05:27.585] [INFO] main.js - 生成版本号: t40oly4hp0d
+[2019-03-12T16:05:27.587] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:27.587] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:27.588] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:27.588] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:05:27.588] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:05:27.588] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:05:27.717] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:05:28.155] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:05:28.530] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:05:28.530] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:05:28.545] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:05:28.554] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:05:28.554] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:05:28.554] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:05:28.555] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:05:28.555] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:05:28.556] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:05:29.293] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:05:29.294] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:05:29.522] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:05:29.524] [INFO] main.js - Compile successfully, Use time: 1942 msec!
+[2019-03-12T16:05:55.498] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:05:55.500] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:05:55.501] [INFO] main.js - 首次启动!
+[2019-03-12T16:05:55.501] [INFO] main.js - 生成版本号: tonqdj96pqo
+[2019-03-12T16:05:55.503] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:55.503] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:55.504] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:05:55.504] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:05:55.504] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:05:55.504] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:05:55.644] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:05:56.077] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:05:56.469] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:05:56.470] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:05:56.483] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:05:56.492] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:05:56.492] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:05:56.492] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:05:56.492] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:05:56.492] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:05:56.493] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:05:57.274] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:05:57.274] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:05:57.583] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:05:57.585] [INFO] main.js - Compile successfully, Use time: 2087 msec!
+[2019-03-12T16:06:35.877] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:06:35.879] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:06:35.879] [INFO] main.js - 首次启动!
+[2019-03-12T16:06:35.879] [INFO] main.js - 生成版本号: fp8d7f8r2pw
+[2019-03-12T16:06:35.881] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:06:35.882] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:06:35.882] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:06:35.882] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:06:35.882] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:06:35.882] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:06:36.008] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:06:36.718] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:06:37.305] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:06:37.305] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:06:37.320] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:06:37.329] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:06:37.329] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:06:37.329] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:06:37.329] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:06:37.329] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:06:37.331] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:06:38.052] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:06:38.053] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:06:38.284] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:06:38.286] [INFO] main.js - Compile successfully, Use time: 2409 msec!
+[2019-03-12T16:07:01.999] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:07:02.001] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:07:02.001] [INFO] main.js - 首次启动!
+[2019-03-12T16:07:02.001] [INFO] main.js - 生成版本号: 9fukbsh2k1t
+[2019-03-12T16:07:02.004] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:07:02.004] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:07:02.004] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:07:02.004] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:07:02.004] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:07:02.004] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:07:02.138] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:07:02.488] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:07:02.838] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:07:02.839] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:07:02.853] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:07:02.862] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:07:02.862] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:07:02.862] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:07:02.862] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:07:02.862] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:07:02.864] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:07:03.613] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:07:03.613] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:07:04.009] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:07:04.011] [INFO] main.js - Compile successfully, Use time: 2012 msec!
+[2019-03-12T16:09:45.074] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:09:45.076] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:09:45.077] [INFO] main.js - 首次启动!
+[2019-03-12T16:09:45.077] [INFO] main.js - 生成版本号: rml7aax1cqr
+[2019-03-12T16:09:45.079] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:09:45.079] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:09:45.079] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:09:45.079] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:09:45.079] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:09:45.079] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:09:45.216] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:09:45.601] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:09:45.985] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:09:45.985] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:09:46.000] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:09:46.009] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:09:46.009] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:09:46.009] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:09:46.009] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:09:46.009] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:09:46.010] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:09:46.738] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:09:46.739] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:09:46.964] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:09:46.967] [INFO] main.js - Compile successfully, Use time: 1892 msec!
+[2019-03-12T16:10:57.065] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:10:57.067] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:10:57.067] [INFO] main.js - 首次启动!
+[2019-03-12T16:10:57.067] [INFO] main.js - 生成版本号: va1znjjvjue
+[2019-03-12T16:10:57.070] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:10:57.070] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:10:57.070] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:10:57.070] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:10:57.070] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:10:57.070] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:10:57.200] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:10:57.533] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:10:57.895] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:10:57.895] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:10:57.910] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:10:57.919] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:10:57.919] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:10:57.919] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:10:57.919] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:10:57.919] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:10:57.921] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:10:58.645] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:10:58.646] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:10:58.887] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:10:58.889] [INFO] main.js - Compile successfully, Use time: 1824 msec!
+[2019-03-12T16:12:02.429] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:12:02.431] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:12:02.431] [INFO] main.js - 首次启动!
+[2019-03-12T16:12:02.431] [INFO] main.js - 生成版本号: 5c1qgep2ghc
+[2019-03-12T16:12:02.433] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:02.434] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:02.434] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:02.434] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:12:02.434] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:12:02.434] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:12:02.566] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:12:02.980] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:12:03.383] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:12:03.383] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:12:03.398] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:12:03.407] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:12:03.407] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:12:03.407] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:12:03.408] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:12:03.408] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:12:03.409] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:12:04.146] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:12:04.146] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:12:04.390] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:12:04.392] [INFO] main.js - Compile successfully, Use time: 1963 msec!
+[2019-03-12T16:12:43.769] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:12:43.771] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:12:43.771] [INFO] main.js - 首次启动!
+[2019-03-12T16:12:43.771] [INFO] main.js - 生成版本号: anmvj5a6jgs
+[2019-03-12T16:12:43.774] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:43.774] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:43.774] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:12:43.774] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:12:43.774] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:12:43.774] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:12:43.898] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:12:44.310] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:12:44.714] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:12:44.715] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:12:44.729] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:12:44.738] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:12:44.738] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:12:44.738] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:12:44.738] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:12:44.738] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:12:44.739] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:12:45.460] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:12:45.461] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:12:45.699] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:12:45.701] [INFO] main.js - Compile successfully, Use time: 1932 msec!
+[2019-03-12T16:14:32.086] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:14:32.088] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:14:32.088] [INFO] main.js - 首次启动!
+[2019-03-12T16:14:32.088] [INFO] main.js - 生成版本号: arygpqt5fuk
+[2019-03-12T16:14:32.090] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:14:32.091] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:14:32.091] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:14:32.091] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:14:32.091] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:14:32.091] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:14:32.219] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:14:32.636] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:14:33.092] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:14:33.092] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:14:33.109] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:14:33.120] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:14:33.120] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:14:33.120] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:14:33.121] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:14:33.121] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:14:33.122] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:14:33.848] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:14:33.848] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:14:34.084] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:14:34.087] [INFO] main.js - Compile successfully, Use time: 2002 msec!
+[2019-03-12T16:16:12.783] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:16:12.785] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:16:12.785] [INFO] main.js - 首次启动!
+[2019-03-12T16:16:12.785] [INFO] main.js - 生成版本号: vc7st3a6m4
+[2019-03-12T16:16:12.788] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:16:12.788] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:16:12.789] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:16:12.789] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:16:12.789] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:16:12.789] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:16:12.916] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:16:13.324] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:16:13.724] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:16:13.724] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:16:13.739] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:16:13.749] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\inA.css
+[2019-03-12T16:16:13.749] [ERROR] tool.js - file does not exist: C:\Users\PG\Documents\GitHub\PG\core\animation\outA.css
+[2019-03-12T16:16:13.749] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:16:13.750] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:16:13.750] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:16:13.751] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:16:14.508] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:16:14.508] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:16:14.952] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:16:14.958] [INFO] main.js - Compile successfully, Use time: 2175 msec!
+[2019-03-12T16:26:02.500] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:26:02.502] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:26:02.502] [INFO] main.js - 首次启动!
+[2019-03-12T16:26:02.502] [INFO] main.js - 生成版本号: c6zme3czi4
+[2019-03-12T16:26:02.504] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:02.505] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:02.505] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:02.505] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:26:02.505] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:26:02.505] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:26:02.637] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:26:03.112] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:26:03.496] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:26:03.496] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:26:03.514] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:26:03.525] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:26:03.525] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:26:03.525] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:26:03.526] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:26:04.340] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:26:04.341] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:26:04.621] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:26:04.623] [INFO] main.js - Compile successfully, Use time: 2123 msec!
+[2019-03-12T16:26:42.491] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:26:42.493] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:26:42.493] [INFO] main.js - 首次启动!
+[2019-03-12T16:26:42.493] [INFO] main.js - 生成版本号: frc9y92owoj
+[2019-03-12T16:26:42.496] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:42.496] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:42.496] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:26:42.496] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:26:42.497] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:26:42.497] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:26:42.630] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:26:43.049] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:26:43.453] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:26:43.454] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:26:43.469] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:26:43.478] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:26:43.478] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:26:43.478] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:26:43.479] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T16:26:44.228] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:26:44.228] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:26:44.554] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:26:44.559] [INFO] main.js - Compile successfully, Use time: 2068 msec!
+[2019-03-12T16:31:09.606] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:31:09.609] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:31:09.609] [INFO] main.js - 首次启动!
+[2019-03-12T16:31:09.609] [INFO] main.js - 生成版本号: ed5w9sfmad6
+[2019-03-12T16:31:09.611] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:31:09.612] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:31:09.612] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:31:09.612] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:31:09.612] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:31:09.612] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:31:09.737] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:31:10.115] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:31:10.482] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:31:10.482] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:31:10.496] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:31:10.496] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:31:10.497] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:31:10.497] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:31:11.239] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:31:11.239] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:31:11.478] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:31:11.480] [INFO] main.js - Compile successfully, Use time: 1874 msec!
+[2019-03-12T16:32:48.847] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:32:48.849] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:32:48.849] [INFO] main.js - 首次启动!
+[2019-03-12T16:32:48.849] [INFO] main.js - 生成版本号: 7zogp1bs0b4
+[2019-03-12T16:32:48.851] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:32:48.852] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:32:48.852] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:32:48.852] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:32:48.852] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:32:48.852] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:32:48.974] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:32:49.413] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:32:49.815] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:32:49.816] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:32:49.829] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:32:49.830] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:32:49.830] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:32:49.830] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:32:50.501] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:32:50.501] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:32:50.726] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:32:50.729] [INFO] main.js - Compile successfully, Use time: 1882 msec!
+[2019-03-12T16:35:11.424] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:35:11.426] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:35:11.426] [INFO] main.js - 首次启动!
+[2019-03-12T16:35:11.426] [INFO] main.js - 生成版本号: 3vl9s5jkx4l
+[2019-03-12T16:35:11.428] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:35:11.428] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:35:11.429] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:35:11.429] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:35:11.429] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:35:11.429] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:35:11.556] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:35:11.983] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:35:12.366] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:35:12.366] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:35:12.380] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:35:12.381] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:35:12.381] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:35:12.381] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:35:13.086] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:35:13.087] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:35:13.490] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:35:13.495] [INFO] main.js - Compile successfully, Use time: 2071 msec!
+[2019-03-12T16:41:45.417] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:41:45.420] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:41:45.420] [INFO] main.js - 首次启动!
+[2019-03-12T16:41:45.420] [INFO] main.js - 生成版本号: 4l3r429wlya
+[2019-03-12T16:41:45.423] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:41:45.423] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:41:45.423] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:41:45.423] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:41:45.423] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:41:45.424] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:41:45.550] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:41:46.322] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:41:46.729] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:41:46.730] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:41:46.746] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:41:46.747] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:41:46.747] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:41:46.747] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:41:46.748] [ERROR] main.js - 页面中不包含切换动画!
+[2019-03-12T16:41:47.493] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:41:47.494] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:41:47.746] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:41:47.749] [INFO] main.js - Compile successfully, Use time: 2332 msec!
+[2019-03-12T16:55:49.192] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:55:49.195] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:55:49.195] [INFO] main.js - 首次启动!
+[2019-03-12T16:55:49.195] [INFO] main.js - 生成版本号: 0mscylxumhub
+[2019-03-12T16:55:49.197] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:55:49.197] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:55:49.198] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:55:49.198] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:55:49.198] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:55:49.198] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:55:49.323] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:55:49.827] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:55:50.217] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:55:50.218] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:55:50.234] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:55:50.234] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:55:50.234] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:55:50.235] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:55:50.235] [ERROR] main.js - 页面中不包含切换动画!
+[2019-03-12T16:55:51.017] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:55:51.018] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:55:51.665] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:55:51.667] [INFO] main.js - Compile successfully, Use time: 2475 msec!
+[2019-03-12T16:58:01.081] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:58:01.083] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:58:01.083] [INFO] main.js - 首次启动!
+[2019-03-12T16:58:01.084] [INFO] main.js - 生成版本号: npgiukq1h
+[2019-03-12T16:58:01.086] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:01.086] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:01.087] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:01.087] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:58:01.087] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:58:01.087] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:58:01.215] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:58:01.840] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:58:02.250] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:58:02.250] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:58:02.267] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:58:02.268] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:58:02.268] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:58:02.268] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:58:02.269] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T16:58:03.006] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:58:03.006] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:58:03.250] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:58:03.252] [INFO] main.js - Compile successfully, Use time: 2171 msec!
+[2019-03-12T16:58:45.319] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T16:58:45.321] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T16:58:45.321] [INFO] main.js - 首次启动!
+[2019-03-12T16:58:45.321] [INFO] main.js - 生成版本号: 50jihh1wctm
+[2019-03-12T16:58:45.323] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:45.324] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:45.324] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T16:58:45.324] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T16:58:45.324] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T16:58:45.324] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T16:58:45.466] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:58:45.826] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T16:58:46.215] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:58:46.215] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T16:58:46.245] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T16:58:46.246] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:58:46.246] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T16:58:46.246] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T16:58:46.248] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T16:58:46.970] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:58:46.970] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T16:58:47.348] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T16:58:47.354] [INFO] main.js - Compile successfully, Use time: 2035 msec!
+[2019-03-12T17:07:57.604] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T17:07:57.606] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T17:07:57.606] [INFO] main.js - 首次启动!
+[2019-03-12T17:07:57.606] [INFO] main.js - 生成版本号: ofrcgopaslr
+[2019-03-12T17:07:57.621] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:07:57.622] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:07:57.622] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:07:57.622] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T17:07:57.622] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T17:07:57.623] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T17:07:57.764] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:07:59.217] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:07:59.590] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:07:59.591] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:07:59.605] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T17:07:59.606] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:07:59.606] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:07:59.606] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T17:07:59.607] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T17:08:00.336] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:08:00.337] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:08:00.831] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T17:08:00.833] [INFO] main.js - Compile successfully, Use time: 3229 msec!
+[2019-03-12T17:09:29.621] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T17:09:29.623] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T17:09:29.623] [INFO] main.js - 首次启动!
+[2019-03-12T17:09:29.624] [INFO] main.js - 生成版本号: cf9cfaplpq
+[2019-03-12T17:09:29.626] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:29.626] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:29.626] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:29.626] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T17:09:29.627] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T17:09:29.627] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T17:09:29.747] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:09:31.153] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:09:31.631] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:09:31.631] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:09:31.646] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T17:09:31.646] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:09:31.646] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:09:31.646] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T17:09:31.647] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T17:09:32.356] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:09:32.357] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:09:32.884] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T17:09:32.885] [INFO] main.js - Compile successfully, Use time: 3264 msec!
+[2019-03-12T17:09:59.930] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T17:09:59.932] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T17:09:59.932] [INFO] main.js - 首次启动!
+[2019-03-12T17:09:59.932] [INFO] main.js - 生成版本号: vjopq1bk0r8
+[2019-03-12T17:09:59.934] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:59.934] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:59.935] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:09:59.935] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T17:09:59.935] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T17:09:59.935] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T17:10:00.071] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:10:00.437] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:10:00.797] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:10:00.797] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:10:00.813] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T17:10:00.814] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:10:00.814] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:10:00.814] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T17:10:00.815] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T17:10:01.506] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:10:01.506] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:10:01.950] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T17:10:01.952] [INFO] main.js - Compile successfully, Use time: 2022 msec!
+[2019-03-12T17:10:27.019] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T17:10:27.021] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T17:10:27.021] [INFO] main.js - 首次启动!
+[2019-03-12T17:10:27.021] [INFO] main.js - 生成版本号: umr7ewx5pr
+[2019-03-12T17:10:27.024] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:10:27.024] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:10:27.024] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:10:27.024] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T17:10:27.024] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T17:10:27.024] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T17:10:27.147] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:10:28.550] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:10:29.088] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:10:29.088] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:10:29.105] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T17:10:29.105] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:10:29.105] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:10:29.105] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T17:10:29.106] [DEBUG] main.js - 页面中不包含切换动画!
+[2019-03-12T17:10:29.798] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:10:29.799] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:10:30.034] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T17:10:30.036] [INFO] main.js - Compile successfully, Use time: 3017 msec!
+[2019-03-12T17:12:22.554] [INFO] main.js - --------------------------- 开始编译 ---------------------------
+[2019-03-12T17:12:22.556] [INFO] main.js - 程序运行目录: C:\Users\PG\Documents\GitHub\example
+[2019-03-12T17:12:22.556] [INFO] main.js - 首次启动!
+[2019-03-12T17:12:22.556] [INFO] main.js - 生成版本号: zmbigrdadps
+[2019-03-12T17:12:22.557] [INFO] main.js - 清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:12:22.557] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:12:22.557] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static
+[2019-03-12T17:12:22.557] [INFO] main.js - 读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html
+[2019-03-12T17:12:22.557] [DEBUG] main.js - 读取网页标题: 页面
+[2019-03-12T17:12:22.557] [DEBUG] main.js - 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}]
+[2019-03-12T17:12:22.679] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:12:23.062] [DEBUG] index.js - 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page
+[2019-03-12T17:12:23.464] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:12:23.465] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource
+[2019-03-12T17:12:23.479] [INFO] main.js - 工程中包含多个页面!
+[2019-03-12T17:12:23.875] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:12:23.875] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css
+[2019-03-12T17:12:23.875] [INFO] main.js - 写文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\ozzx.animation.css
+[2019-03-12T17:12:23.876] [INFO] main.js - 项目中包含有页面切换动画!
+[2019-03-12T17:12:24.600] [INFO] tool.js - 文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:12:24.600] [INFO] tool.js - 创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js
+[2019-03-12T17:12:24.871] [INFO] main.js - 使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js
+[2019-03-12T17:12:24.874] [INFO] main.js - Compile successfully, Use time: 2320 msec!
