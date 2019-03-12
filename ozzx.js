@@ -57,8 +57,6 @@ module.exports = {
     watcher: {
       // 是否启用
       enable: true,
-      // 监控的文件夹 默认'./src'
-      folder: './src',
       // 忽略监控的文件或文件夹，支持正则，默认为输出目录
       ignored: './dist/*',
       // 监测深度,默认99
@@ -70,12 +68,6 @@ module.exports = {
       minifyCss: false,
       // 是否压缩js
       minifyJs: false,
-      // 手动指定样式列表
-      // useAnimationList: [],
-      // 全局样式文件
-      globalStyle: './src/main.css',
-      // 全局js文件
-      globalScript: './src/main.js',
       // 输出文件自动追加版本号，可以用来消除缓存
       outFileAddVersion: false
     },
@@ -93,10 +85,6 @@ module.exports = {
       minifyCss: true,
       // 是否压缩js
       minifyJs: true,
-      // 全局样式文件
-      globalStyle: './src/main.css',
-      // 全局js文件
-      globalScript: './src/main.js',
       // 输出文件自动追加版本号，可以用来消除缓存
       outFileAddVersion: true,
     }
