@@ -56,7 +56,7 @@ module.exports = {
     // 是否监测文件改动重新打包
     watcher: {
       // 是否启用
-      enable: false,
+      enable: true,
       // 监控的文件夹 默认'./src'
       folder: './src',
       // 忽略监控的文件或文件夹，支持正则，默认为输出目录
@@ -81,9 +81,9 @@ module.exports = {
     },
     serverPort: 8000,
     // 静态文件服务
-    server: false,
+    server: true,
     // 自动重新加载
-    autoReload: false,
+    autoReload: true,
   },
   // 编译模式配置
   build: {

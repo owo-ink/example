@@ -3,36 +3,30 @@
     <temple name="topBar" src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page"></temple>
     <div class="animation">
       <h4>移动/移出效果</h4>
-      <div class="button" @click="$go('name', 'moveToLeft', 'moveFromRight')">Move to left/ from right</div>
-      <div class="button" @click="$go('name', 'moveToRight', 'moveFromLeft')">Move to right/ from left</div>
-      <div class="button" @click="$go('name', 'moveToTop', 'moveFromBottom')">Move to top/ from bottom</div>
-      <div class="button" @click="$go('name', 'moveToBottom', 'moveFromTop')">Move to bottom/ from top</div>
+      <div class="button" @click="$go('name', 'moveToLeft', 'moveFromRight')">向左移出</div>
+      <div class="button" @click="$go('name', 'moveToRight', 'moveFromLeft')">向右移出</div>
+      <div class="button" @click="$go('name', 'moveToTop', 'moveFromBottom')">向上移出</div>
+      <div class="button" @click="$go('name', 'moveToBottom', 'moveFromTop')">向下移出</div>
       <div class="clear"></div>
       <h4>淡入/淡出效果</h4>
-      <div class="button" @click="$go('name', 'moveFromRight', 'fade')">Fade / from right</div>
-      <div class="button" @click="$go('name', 'moveFromLeft', 'fade')">Fade / from left</div>
-      <div class="button" @click="$go('name', 'moveFromBottom', 'fade')">Fade / from bottom</div>
-      <div class="button" @click="$go('name', 'moveFromTop', 'fade')">Fade / from top</div>
-      <div class="button" @click="$go('name', 'moveFromRightFade', 'moveToLeftFade')">Fade left / Fade right</div>
+      <div class="button" @click="$go('name', 'fade', 'moveFromRight')">从右淡入</div>
+      <div class="button" @click="$go('name', 'fade', 'moveFromLeft')">从左淡入</div>
+      <div class="button" @click="$go('name', 'fade', 'moveFromBottom')">从下淡入</div>
+      <div class="button" @click="$go('name', 'fade', 'moveFromTop')">从上淡入</div>
+      <div class="button" @click="$go('name', 'moveToLeftFade', 'moveFromRightFade')">向左淡出</div>
       <div class="clear"></div>
-      <h4>轻松效果</h4>
-      <div class="button" @click="$go('name', 'moveToLeftEasing', 'moveFromRight')">Move to left/ from right</div>
-      <div class="button" @click="$go('name', 'moveToRightEasing', 'moveFromLeft')">Move to right/ from left</div>
-      <div class="button" @click="$go('name', 'moveToTopEasing', 'moveFromBottom')">Move to top/ from bottom</div>
-      <div class="button" @click="$go('name', 'moveToBottomEasing', 'moveFromTop')">Move to bottom/ from top</div>
-      <div class="clear"></div>
-      <h4>比例效果</h4>
-      <div class="button" @click="$go('name', 'scaleDown', 'moveFromRight')">Scale down / from right</div>
-      <div class="button" @click="$go('name', 'scaleDown', 'moveFromLeft')">Scale down / from left</div>
-      <div class="button" @click="$go('name', 'scaleDown', 'moveFromBottom')">Scale down / from bottom</div>
-      <div class="button" @click="$go('name', 'scaleDown', 'moveFromTop')">Scale down / from top</div>
-      <div class="button" @click="$go('name', 'scaleDown', 'scaleUpDown')">Scale down / scale down</div>
-      <div class="button" @click="$go('name', 'scaleDown', 'scaleUp')">Scale up / scale up</div>
-      <div class="button" @click="$go('name', 'moveToLeft', 'scaleUp')">Move to left / scale up</div>
-      <div class="button" @click="$go('name', 'moveToRight', 'scaleUp')">Move to right / scale up</div>
-      <div class="button" @click="$go('name', 'moveToTop', 'scaleUp')">Move to top / scale up</div>
-      <div class="button" @click="$go('name', 'moveToBottom', 'scaleUp')">Move to bottom / scale up</div>
-      <div class="button" @click="$go('name', 'scaleDownCenter', 'scaleUpCenter')">Scale down / scale up</div>
+      <h4>向后退出</h4>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromRight')">右面插入</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromLeft')">左面插入</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromBottom')">下方插入</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'moveFromTop')">上方插入</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'scaleUpDown')">向前推出</div>
+      <div class="button" @click="$go('name', 'scaleDown', 'scaleUp')">向前拉入</div>
+      <div class="button" @click="$go('name', 'moveToLeft', 'scaleUp')">向左划出</div>
+      <div class="button" @click="$go('name', 'moveToRight', 'scaleUp')">向右划出</div>
+      <div class="button" @click="$go('name', 'moveToTop', 'scaleUp')">向上划出</div>
+      <div class="button" @click="$go('name', 'moveToBottom', 'scaleUp')">向下划出</div>
+      <div class="button" @click="$go('name', 'scaleDownCenter', 'scaleUpCenter')">向前划出</div>
       <div class="clear"></div>
       <h4>旋转效果</h4>
       <h5>胶棒</h5>
@@ -48,10 +42,10 @@
       <div class="button" @click="$go('name', 'flipOutBottom', 'flipInTop,delay500')">Flip bottom</div>
       <div class="clear"></div>
       <h5>落下</h5>
-      <div class="button" @click="$go('name', 'rotateFall', 'scaleUp')">Fall</div>
+      <div class="button" @click="$go('name', 'rotateFall', 'scaleUp')">叶子掉落</div>
       <div class="clear"></div>
       <h5>报纸</h5>
-      <div class="button" @click="$go('name', 'rotateOutNewspaper', 'rotateInNewspaper,delay500')">Newspaper</div>
+      <div class="button" @click="$go('name', 'rotateOutNewspaper', 'rotateInNewspaper,delay500')">螺旋退出</div>
       <div class="clear"></div>
       <h5>推/拉</h5>
       <div class="button" @click="$go('name', 'rotatePushLeft', 'moveFromRight')">Push left / from right</div>
@@ -121,5 +115,6 @@
     font-size: 12px;
     text-align: center;
     float: left;
+    margin: 5px 10px;
   }
 </style>
