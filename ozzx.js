@@ -31,6 +31,13 @@ module.exports = {
       defer: true
     }
   ],
+  // 使用到的样式列表
+  styleList: [
+    {
+      name: "main",
+      src: "./src/main.css"
+    }
+  ],
   // 页面清单
   pageList: [
     {

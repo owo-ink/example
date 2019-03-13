@@ -25,3 +25,5 @@ pack dev
   <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
 </template>
 ```
+
+动画效果-房间 有问题
