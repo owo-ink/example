@@ -76,7 +76,7 @@ module.exports = {
       // 是否压缩js
       minifyJs: false,
       // 输出文件自动追加版本号，可以用来消除缓存
-      outFileAddVersion: false
+      addVersion: false
     },
     serverPort: 8000,
     // 静态文件服务
@@ -93,7 +93,7 @@ module.exports = {
       // 是否压缩js
       minifyJs: true,
       // 输出文件自动追加版本号，可以用来消除缓存
-      outFileAddVersion: true,
+      addVersion: true,
     }
   }
 }
