@@ -1,9 +1,8 @@
 # ozzx-example
 
-下载:
+下载项目文件
 ```
-git clone https://github.com/ozzx/example
-```
+
 安装依赖：
 ```
 cd example
@@ -17,6 +16,9 @@ npm i -g ozzx
 ```
 pack dev
 ```
+编译:
+
+pack build
 
 在页面中使用模板:
 ```
