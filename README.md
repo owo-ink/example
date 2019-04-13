@@ -1,4 +1,4 @@
-# ozzx-example
+# owo-example
 
 下载项目文件
 ```
@@ -8,9 +8,9 @@
 cd example
 npm i 或 yarn
 ```
-安装ozzx：
+安装owo框架：
 ```
-npm i -g ozzx
+npm i -g @owo/pack
 ```
 运行:
 ```

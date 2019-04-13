@@ -60,6 +60,8 @@ module.exports = {
   ],
   // 调试模式配置
   dev: {
+    // 基础目录
+    basePath: './',
     // 是否监测文件改动重新打包
     watcher: {
       // 是否启用
@@ -86,6 +88,8 @@ module.exports = {
   },
   // 编译模式配置
   build: {
+    // 基础目录
+    basePath: './',
     // 输出配置
     outPut: {
       // 是否压缩css
