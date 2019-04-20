@@ -20,7 +20,7 @@
       <h4>2.处理css标签中的资源</h4>
       <div class="image"></div>
       <h4>3.处理js标签中的资源</h4>
-      <img src="" @name="jsImage"/>
+      <img id="jsImage" src=""/>
     </div>
   </div>
 </template>
@@ -36,7 +36,7 @@
     },
     created: () => {
       $tool.toast('hellow word!')
-      $dom('jsImage').src = '@&grass.png&'
+      $('#jsImage').src = '@&grass.png&'
     },
     showAlert: function (othersName, myName) {
       console.log('可以传递参数:', othersName, myName)

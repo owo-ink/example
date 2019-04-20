@@ -6,7 +6,7 @@
 <script>
   module.exports = {
     created: function () {
-      console.log('my name is pack!')
+      console.log('my name is pack!') 
     }
   }
 </script>
