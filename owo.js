@@ -98,6 +98,8 @@ module.exports = {
       minifyJs: true,
       // 输出文件自动追加版本号，可以用来消除缓存
       addVersion: true,
+      // 小于多大的资源会嵌入到代码中,单位kb,默认10,设置为0则不启用
+      embedSize: 10
     }
   }
 }

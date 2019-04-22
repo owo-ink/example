@@ -1,93 +1,52 @@
-18:47:59.025 DEBUG 获取到配置信息: 
-18:47:59.025 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}],"scriptList":[{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}],"styleList":[{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"name","src":"./src/page/name.page","temple":"<temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"animation","src":"./src/page/animation.page","temple":"<temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true}}} 
-18:47:59.026 INFO  --------------------------- 开始编译 --------------------------- 
-18:47:59.026 INFO  程序运行目录: C:\Users\my\Documents\GitHub\example 
-18:47:59.026 INFO  首次启动! 
-18:47:59.026 INFO  生成版本号: lkmw9m7me 
-18:47:59.028 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
-18:47:59.029 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static 
-18:47:59.029 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
-18:47:59.029 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html 
-18:47:59.029 DEBUG 读取网页标题: 页面 
-18:47:59.029 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
-18:47:59.030 DEBUG 处理模板: ./src/page/home.page 
-18:47:59.170 DEBUG 缓存模板: ./src/page/home.page 
-18:47:59.170 DEBUG 处理模板: ./src/page/name.page 
-18:47:59.174 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:47:59.557 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:47:59.562 DEBUG 缓存模板: ./src/page/name.page 
-18:47:59.562 DEBUG 处理模板: ./src/page/animation.page 
-18:47:59.581 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:47:59.599 DEBUG 缓存模板: ./src/page/animation.page 
-18:47:59.600 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource 
-18:47:59.600 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource 
-18:47:59.616 INFO  工程中包含多个页面! 
-18:47:59.628 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css 
-18:47:59.628 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css 
-18:47:59.628 INFO  写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\owo.animation.css 
-18:47:59.629 INFO  包含有页面切换动画! 
-18:47:59.629 INFO  动画列表: moveToLeft,moveFromRight,moveToRight,moveFromLeft,moveToTop,moveFromBottom,moveToBottom,moveFromTop,fade,moveToLeftFade,moveFromRightFade,scaleDown,scaleUpDown,scaleUp,scaleDownCenter,scaleUpCenter,rotateRightSideFirst,delay200,ontop,rotateLeftSideFirst,rotateTopSideFirst,rotateBottomSideFirst,flipOutRight,flipInLeft,delay500,flipOutLeft,flipInRight,flipOutTop,flipInBottom,flipOutBottom,flipInTop,rotateFall,rotateOutNewspaper,rotateInNewspaper,rotatePushLeft,rotatePushRight,rotatePushTop,rotatePushBottom,rotatePullRight,rotatePullLeft,rotatePullBottom,rotatePullTop,rotateFoldLeft,rotateFoldRight,moveFromLeftFade,rotateFoldTop,moveFromBottomFade,rotateFoldBottom,moveFromTopFade,rotateUnfoldRight,moveToRightFade,rotateUnfoldLeft,moveToBottomFade,rotateUnfoldTop,moveToTopFade,rotateUnfoldBottom,rotateRoomLeftOut,rotateRoomLeftIn,rotateRoomRightOut,rotateRoomRightIn,rotateRoomTopOut,rotateRoomTopIn,rotateRoomBottomOut,rotateRoomBottomIn,rotateCubeLeftOut,rotateCubeLeftIn,rotateCubeRightOut,rotateCubeRightIn,rotateCubeTopOut,rotateCubeTopIn,rotateCubeBottomOut,rotateCubeBottomIn,rotateCarouselLeftOut,rotateCarouselLeftIn,rotateCarouselRightOut,rotateCarouselRightIn,rotateCarouselTopOut,rotateCarouselTopIn,rotateCarouselBottomOut,rotateCarouselBottomIn,rotateSidesOut,rotateSidesIn,rotateSlideOut,rotateSlideIn 
-18:48:00.504 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js 
-18:48:00.505 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js 
-18:48:00.520 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
-18:48:00.520 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
-18:48:00.520 DEBUG 外部脚本数量: 1 
-18:48:00.520 DEBUG 处理脚本: gif 
-18:48:00.520 DEBUG 使用bable处理脚本! 
-18:48:00.520 INFO  监控文件夹变化: C:\Users\my\Documents\GitHub\example\src 
-18:48:00.533 INFO  服务器运行在: 127.0.0.1:8000 
-18:48:00.542 DEBUG 文件处理成功: 
-18:48:00.737 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-topBar .top-bar ",".o-topBar "],[".o-animation .animation-box ",".o-animation "]] 
-18:48:00.738 INFO  读取文件: C:\Users\my\Documents\GitHub\example\src\main.css 
-18:48:00.738 DEBUG 判断是否可以输出Html! 
-18:48:00.738 DEBUG 还有没有经过处理的资源! 
-18:48:00.765 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
-18:48:00.787 INFO  读取成功: C:\Users\my\Documents\GitHub\example\src\main.css 
-18:48:00.788 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js 
-18:48:00.789 INFO  使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js 
-18:48:00.789 DEBUG 判断是否可以输出Html! 
-18:48:00.789 DEBUG 准备输出html! 
-18:48:00.789 DEBUG 开始美化html 
-18:48:00.829 INFO  发送重新页面需要刷新命令! 
-18:48:00.830 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\css\main.css 
-18:48:00.933 DEBUG 文件处理成功: 
-18:48:00.933 DEBUG C:\Users\my\Documents\GitHub\example\dist\static\resource\grass.png 
-18:48:00.935 DEBUG 文件处理成功: 
-18:48:00.935 DEBUG C:\Users\my\Documents\GitHub\example\dist\static\resource\grass.png 
-18:52:03.764 INFO  file change: C:\Users\my\Documents\GitHub\example\src\page\home.page 
-18:52:03.765 INFO  --------------------------- 开始编译 --------------------------- 
-18:52:03.765 INFO  程序运行目录: C:\Users\my\Documents\GitHub\example 
-18:52:03.765 INFO  刷新模式,变化目录: C:\Users\my\Documents\GitHub\example\src\page\home.page 
-18:52:03.765 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html 
-18:52:03.765 DEBUG 读取网页标题: 页面 
-18:52:03.765 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
-18:52:03.765 DEBUG 处理模板: ./src/page/home.page 
-18:52:03.787 DEBUG 缓存模板: ./src/page/home.page 
-18:52:03.787 DEBUG 处理模板: ./src/page/name.page 
-18:52:03.789 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:52:04.173 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:52:04.176 DEBUG 缓存模板: ./src/page/name.page 
-18:52:04.176 DEBUG 处理模板: ./src/page/animation.page 
-18:52:04.197 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-18:52:04.211 DEBUG 缓存模板: ./src/page/animation.page 
-18:52:04.211 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
-18:52:04.213 INFO  工程中包含多个页面! 
-18:52:04.225 INFO  写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\owo.animation.css 
-18:52:04.226 INFO  包含有页面切换动画! 
-18:52:04.227 INFO  动画列表: moveToLeft,moveFromRight,moveToRight,moveFromLeft,moveToTop,moveFromBottom,moveToBottom,moveFromTop,fade,moveToLeftFade,moveFromRightFade,scaleDown,scaleUpDown,scaleUp,scaleDownCenter,scaleUpCenter,rotateRightSideFirst,delay200,ontop,rotateLeftSideFirst,rotateTopSideFirst,rotateBottomSideFirst,flipOutRight,flipInLeft,delay500,flipOutLeft,flipInRight,flipOutTop,flipInBottom,flipOutBottom,flipInTop,rotateFall,rotateOutNewspaper,rotateInNewspaper,rotatePushLeft,rotatePushRight,rotatePushTop,rotatePushBottom,rotatePullRight,rotatePullLeft,rotatePullBottom,rotatePullTop,rotateFoldLeft,rotateFoldRight,moveFromLeftFade,rotateFoldTop,moveFromBottomFade,rotateFoldBottom,moveFromTopFade,rotateUnfoldRight,moveToRightFade,rotateUnfoldLeft,moveToBottomFade,rotateUnfoldTop,moveToTopFade,rotateUnfoldBottom,rotateRoomLeftOut,rotateRoomLeftIn,rotateRoomRightOut,rotateRoomRightIn,rotateRoomTopOut,rotateRoomTopIn,rotateRoomBottomOut,rotateRoomBottomIn,rotateCubeLeftOut,rotateCubeLeftIn,rotateCubeRightOut,rotateCubeRightIn,rotateCubeTopOut,rotateCubeTopIn,rotateCubeBottomOut,rotateCubeBottomIn,rotateCarouselLeftOut,rotateCarouselLeftIn,rotateCarouselRightOut,rotateCarouselRightIn,rotateCarouselTopOut,rotateCarouselTopIn,rotateCarouselBottomOut,rotateCarouselBottomIn,rotateSidesOut,rotateSidesIn,rotateSlideOut,rotateSlideIn 
-18:52:04.375 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
-18:52:04.375 DEBUG 外部脚本数量: 1 
-18:52:04.375 DEBUG 处理脚本: gif 
-18:52:04.375 DEBUG 使用bable处理脚本! 
-18:52:04.375 DEBUG 判断是否可以输出Html! 
-18:52:04.375 DEBUG 还有没有经过处理的资源! 
-18:52:04.377 DEBUG 文件处理成功: 
-18:52:04.377 DEBUG 文件处理成功: 
-18:52:04.513 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-topBar .top-bar ",".o-topBar "],[".o-animation .animation-box ",".o-animation "]] 
-18:52:04.513 DEBUG 判断是否可以输出Html! 
-18:52:04.513 DEBUG 准备输出html! 
-18:52:04.513 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
-18:52:04.513 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
-18:52:04.513 DEBUG 开始美化html 
-18:52:04.540 INFO  发送重新页面需要刷新命令! 
-18:52:04.541 DEBUG 文件处理成功: 
+18:43:03.988 DEBUG 获取到配置信息: 
+18:43:03.988 DEBUG {"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10},"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}],"scriptList":[{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}],"styleList":[{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"name","src":"./src/page/name.page","temple":"<temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"animation","src":"./src/page/animation.page","temple":"<temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
+18:43:03.989 INFO  --------------------------- 开始编译 --------------------------- 
+18:43:03.989 INFO  程序运行目录: C:\Users\my\Documents\GitHub\example 
+18:43:03.989 INFO  首次启动! 
+18:43:03.989 INFO  生成版本号: kt0labte46n 
+18:43:03.991 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
+18:43:03.991 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static 
+18:43:03.992 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
+18:43:03.992 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\index.html 
+18:43:03.992 DEBUG 读取网页标题: 页面 
+18:43:03.992 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
+18:43:03.992 DEBUG 处理模板: ./src/page/home.page 
+18:43:04.131 DEBUG 缓存模板: ./src/page/home.page 
+18:43:04.131 DEBUG 处理模板: ./src/page/name.page 
+18:43:04.134 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+18:43:04.134 ERROR 模板: C:\Users\my\Documents\GitHub\example\https:\puge-10017157.cos.ap-shanghai.myqcloud.com\temp\topBar.page不存在! 
+18:43:04.135 ERROR 页面 topBar 为空! 
+18:43:04.135 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+18:43:04.138 DEBUG 缓存模板: ./src/page/name.page 
+18:43:04.138 DEBUG 处理模板: ./src/page/animation.page 
+18:43:04.156 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+18:43:04.169 DEBUG 缓存模板: ./src/page/animation.page 
+18:43:04.170 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource 
+18:43:04.170 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource 
+18:43:04.171 DEBUG 处理资源: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+18:43:04.189 INFO  工程中包含多个页面! 
+18:43:04.201 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css 
+18:43:04.201 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css 
+18:43:04.201 INFO  写文件: C:\Users\my\Documents\GitHub\example\dist\static\css\owo.animation.kt0labte46n.css 
+18:43:04.202 INFO  包含有页面切换动画! 
+18:43:04.203 INFO  动画列表: moveToLeft,moveFromRight,moveToRight,moveFromLeft,moveToTop,moveFromBottom,moveToBottom,moveFromTop,fade,moveToLeftFade,moveFromRightFade,scaleDown,scaleUpDown,scaleUp,scaleDownCenter,scaleUpCenter,rotateRightSideFirst,delay200,ontop,rotateLeftSideFirst,rotateTopSideFirst,rotateBottomSideFirst,flipOutRight,flipInLeft,delay500,flipOutLeft,flipInRight,flipOutTop,flipInBottom,flipOutBottom,flipInTop,rotateFall,rotateOutNewspaper,rotateInNewspaper,rotatePushLeft,rotatePushRight,rotatePushTop,rotatePushBottom,rotatePullRight,rotatePullLeft,rotatePullBottom,rotatePullTop,rotateFoldLeft,rotateFoldRight,moveFromLeftFade,rotateFoldTop,moveFromBottomFade,rotateFoldBottom,moveFromTopFade,rotateUnfoldRight,moveToRightFade,rotateUnfoldLeft,moveToBottomFade,rotateUnfoldTop,moveToTopFade,rotateUnfoldBottom,rotateRoomLeftOut,rotateRoomLeftIn,rotateRoomRightOut,rotateRoomRightIn,rotateRoomTopOut,rotateRoomTopIn,rotateRoomBottomOut,rotateRoomBottomIn,rotateCubeLeftOut,rotateCubeLeftIn,rotateCubeRightOut,rotateCubeRightIn,rotateCubeTopOut,rotateCubeTopIn,rotateCubeBottomOut,rotateCubeBottomIn,rotateCarouselLeftOut,rotateCarouselLeftIn,rotateCarouselRightOut,rotateCarouselRightIn,rotateCarouselTopOut,rotateCarouselTopIn,rotateCarouselBottomOut,rotateCarouselBottomIn,rotateSidesOut,rotateSidesIn,rotateSlideOut,rotateSlideIn 
+18:43:05.069 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js 
+18:43:05.070 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js 
+18:43:05.087 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
+18:43:05.087 DEBUG 外部脚本数量: 1 
+18:43:05.087 DEBUG 处理脚本: gif 
+18:43:05.087 DEBUG 使用bable处理脚本! 
+18:43:05.291 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-animation .animation-box ",".o-animation "]] 
+18:43:05.291 INFO  读取文件: C:\Users\my\Documents\GitHub\example\src\main.css 
+18:43:05.292 DEBUG 判断是否可以输出Html! 
+18:43:05.292 DEBUG 还有没有经过处理的资源! 
+18:43:05.329 INFO  读取成功: C:\Users\my\Documents\GitHub\example\src\main.css 
+18:43:05.367 INFO  使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js 
+18:43:05.367 DEBUG 判断是否可以输出Html! 
+18:43:05.367 DEBUG 准备输出html! 
+18:43:05.367 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+18:43:05.367 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+18:43:05.367 DEBUG 开始美化html 
+18:43:05.403 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\css\main.css 
+18:43:05.463 DEBUG 文件处理成功: 
+18:43:05.463 DEBUG C:\Users\my\Documents\GitHub\example\dist\static\resource\grass.png 
