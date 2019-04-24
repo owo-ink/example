@@ -36,7 +36,11 @@
     },
     created: () => {
       $tool.toast('hellow word!')
-      $('#jsImage').src = '@&grass.png&'
+      $('#jsImage')[0].src = '@&grass.png&'
+      // 延时的目的是因为websocket还没链接成功
+      setTimeout(() => {
+        log('这条输出日志会在后端显示!')
+      }, 0)
     },
     showAlert: function (othersName, myName) {
       console.log('可以传递参数:', othersName, myName)

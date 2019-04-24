@@ -78,13 +78,15 @@ module.exports = {
       // 是否压缩js
       minifyJs: false,
       // 输出文件自动追加版本号，可以用来消除缓存
-      addVersion: false
+      addVersion: false,
     },
     serverPort: 8000,
     // 静态文件服务
     server: true,
     // 自动重新加载
     autoReload: true,
+    // 远程调试
+    remoteDebug: true
   },
   // 编译模式配置
   build: {
