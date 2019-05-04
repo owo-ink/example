@@ -22,6 +22,10 @@
       <h4>3.处理js标签中的资源</h4>
       <img id="jsImage" src=""/>
     </div>
+    <div class="title">支持slot(插件)</div>
+    <temple name="button" src="./src/module/button.page">
+      <div>slot演示</div>
+    </temple>
   </div>
 </template>
 

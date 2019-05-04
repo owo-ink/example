@@ -1,127 +1,102 @@
-10:45:21.771 DEBUG 获取到配置信息: 
-10:45:21.771 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}],"scriptList":[{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}],"styleList":[{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"name","src":"./src/page/name.page","temple":"<temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>"},{"isPage":true,"name":"animation","src":"./src/page/animation.page","temple":"<temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
-10:45:21.771 INFO  --------------------------- 开始编译 --------------------------- 
-10:45:21.772 INFO  程序运行目录: C:\Users\PG\Documents\GitHub\example 
-10:45:21.772 INFO  首次启动! 
-10:45:21.772 INFO  生成版本号: yzy2wnq8u08 
-10:45:21.780 INFO  清理资源文件夹: C:\Users\PG\Documents\GitHub\example\dist\static 
-10:45:21.780 INFO  文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static 
-10:45:21.780 INFO  创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static 
-10:45:21.780 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
-10:45:21.781 DEBUG 读取网页标题: 页面 
-10:45:21.781 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
-10:45:21.781 DEBUG 处理模板: ./src/page/home.page 
-10:45:21.899 DEBUG 缓存模板: ./src/page/home.page 
-10:45:21.899 DEBUG 处理模板: ./src/page/name.page 
-10:45:21.902 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:45:21.902 ERROR 模板: C:\Users\PG\Documents\GitHub\example\https:\puge-10017157.cos.ap-shanghai.myqcloud.com\temp\topBar.page不存在! 
-10:45:21.904 ERROR 页面 topBar 为空! 
-10:45:21.904 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:45:21.907 DEBUG 缓存模板: ./src/page/name.page 
-10:45:21.907 DEBUG 处理模板: ./src/page/animation.page 
-10:45:21.922 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:45:21.933 DEBUG 缓存模板: ./src/page/animation.page 
-10:45:21.934 INFO  文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\resource 
-10:45:21.934 INFO  创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\resource 
-10:45:21.934 DEBUG 处理资源: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:45:21.950 INFO  工程中包含多个页面! 
-10:45:21.951 DEBUG 页面中不包含切换动画! 
-10:45:22.699 INFO  文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\js 
-10:45:22.699 INFO  创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\js 
-10:45:22.710 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-10:45:22.711 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
-10:45:22.711 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
-10:45:22.711 DEBUG 外部脚本数量: 1 
-10:45:22.711 DEBUG 处理脚本: gif 
-10:45:22.711 DEBUG 使用bable处理脚本! 
-10:45:22.711 INFO  监控文件夹变化: C:\Users\PG\Documents\GitHub\example\src 
-10:45:22.723 INFO  服务器运行在: 127.0.0.1:8000 
-10:45:22.906 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-animation .animation-box ",".o-animation "]] 
-10:45:22.906 INFO  文件夹不存在: C:\Users\PG\Documents\GitHub\example\dist\static\css 
-10:45:22.907 INFO  创建文件夹: C:\Users\PG\Documents\GitHub\example\dist\static\css 
-10:45:22.907 INFO  读取文件: C:\Users\PG\Documents\GitHub\example\src\main.css 
-10:45:22.907 DEBUG 判断是否可以输出Html! 
-10:45:22.907 DEBUG 还有没有经过处理的资源! 
-10:45:22.949 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
-10:45:22.949 INFO  读取成功: C:\Users\PG\Documents\GitHub\example\src\main.css 
-10:45:22.949 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\log.js 
-10:45:22.951 INFO  使用babel处理并生成文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\gif.js 
-10:45:22.951 DEBUG 判断是否可以输出Html! 
-10:45:22.951 DEBUG 准备输出html! 
-10:45:22.951 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:45:22.952 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:45:22.952 DEBUG 开始美化html 
-10:45:22.981 INFO  发送重新页面需要刷新命令! 
-10:45:22.981 INFO  写入文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\autoReload.js 
-10:45:22.981 INFO  写入文件: C:\Users\PG\Documents\GitHub\example\dist\static\css\main.css 
-10:45:22.982 INFO  写入文件: C:\Users\PG\Documents\GitHub\example\dist\static\js\log.js 
-10:45:23.084 DEBUG 文件处理成功: 
-10:45:23.084 DEBUG C:\Users\PG\Documents\GitHub\example\dist\static\resource\grass.png 
-10:56:56.278 INFO  file change: C:\Users\PG\Documents\GitHub\example\src\page\home.page 
-10:56:56.278 INFO  --------------------------- 开始编译 --------------------------- 
-10:56:56.279 INFO  程序运行目录: C:\Users\PG\Documents\GitHub\example 
-10:56:56.279 INFO  刷新模式,变化目录: C:\Users\PG\Documents\GitHub\example\src\page\home.page 
-10:56:56.279 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
-10:56:56.279 DEBUG 读取网页标题: 页面 
-10:56:56.279 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
-10:56:56.279 DEBUG 处理模板: ./src/page/home.page 
-10:56:56.293 DEBUG 缓存模板: ./src/page/home.page 
-10:56:56.293 DEBUG 处理模板: ./src/page/name.page 
-10:56:56.295 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:56:56.295 ERROR 模板: C:\Users\PG\Documents\GitHub\example\https:\puge-10017157.cos.ap-shanghai.myqcloud.com\temp\topBar.page不存在! 
-10:56:56.297 ERROR 页面 topBar 为空! 
-10:56:56.297 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:56:56.300 DEBUG 缓存模板: ./src/page/name.page 
-10:56:56.300 DEBUG 处理模板: ./src/page/animation.page 
-10:56:56.321 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-10:56:56.332 DEBUG 缓存模板: ./src/page/animation.page 
-10:56:56.332 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:56:56.333 INFO  工程中包含多个页面! 
-10:56:56.334 DEBUG 页面中不包含切换动画! 
-10:56:56.452 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
-10:56:56.452 DEBUG 外部脚本数量: 1 
-10:56:56.452 DEBUG 处理脚本: gif 
-10:56:56.452 DEBUG 使用bable处理脚本! 
-10:56:56.452 DEBUG 判断是否可以输出Html! 
-10:56:56.452 DEBUG 还有没有经过处理的资源! 
-10:56:56.568 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-animation .animation-box ",".o-animation "]] 
-10:56:56.568 DEBUG 判断是否可以输出Html! 
-10:56:56.568 DEBUG 准备输出html! 
-10:56:56.568 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:56:56.568 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-10:56:56.568 DEBUG 开始美化html 
-10:56:56.588 INFO  发送重新页面需要刷新命令! 
-11:04:24.787 INFO  file change: C:\Users\PG\Documents\GitHub\example\src\page\home.page 
-11:04:24.787 INFO  --------------------------- 开始编译 --------------------------- 
-11:04:24.787 INFO  程序运行目录: C:\Users\PG\Documents\GitHub\example 
-11:04:24.787 INFO  刷新模式,变化目录: C:\Users\PG\Documents\GitHub\example\src\page\home.page 
-11:04:24.787 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\index.html 
-11:04:24.787 DEBUG 读取网页标题: 页面 
-11:04:24.787 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
-11:04:24.787 DEBUG 处理模板: ./src/page/home.page 
-11:04:24.796 DEBUG 缓存模板: ./src/page/home.page 
-11:04:24.796 DEBUG 处理模板: ./src/page/name.page 
-11:04:24.798 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-11:04:24.799 ERROR 模板: C:\Users\PG\Documents\GitHub\example\https:\puge-10017157.cos.ap-shanghai.myqcloud.com\temp\topBar.page不存在! 
-11:04:24.802 ERROR 页面 topBar 为空! 
-11:04:24.802 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-11:04:24.804 DEBUG 缓存模板: ./src/page/name.page 
-11:04:24.804 DEBUG 处理模板: ./src/page/animation.page 
-11:04:24.816 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
-11:04:24.829 DEBUG 缓存模板: ./src/page/animation.page 
-11:04:24.829 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-11:04:24.830 INFO  工程中包含多个页面! 
-11:04:24.830 DEBUG 页面中不包含切换动画! 
-11:04:24.896 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
-11:04:24.896 DEBUG 外部脚本数量: 1 
-11:04:24.896 DEBUG 处理脚本: gif 
-11:04:24.896 DEBUG 使用bable处理脚本! 
-11:04:24.896 DEBUG 判断是否可以输出Html! 
-11:04:24.896 DEBUG 还有没有经过处理的资源! 
-11:04:25.004 DEBUG 需要经过特殊处理的css: [[".o-home .example ",".o-home "],[".o-animation .animation-box ",".o-animation "]] 
-11:04:25.004 DEBUG 判断是否可以输出Html! 
-11:04:25.004 DEBUG 准备输出html! 
-11:04:25.004 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-11:04:25.004 DEBUG 忽略文件: C:\Users\PG\Documents\GitHub\example\src\resource\grass.png 
-11:04:25.004 DEBUG 开始美化html 
-11:04:25.019 INFO  发送重新页面需要刷新命令! 
+23:21:19.627 DEBUG 获取到配置信息: 
+23:21:19.627 DEBUG {"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true,"root":"/src","entry":"home","title":"页面","outFolder":"./dist","resourceFolder":"./src/resource","headList":[{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}],"scriptList":[{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}],"styleList":[{"name":"main","src":"./src/main.css"}],"pageList":[{"main":true,"isPage":true,"name":"home","src":"./src/page/home.page","temple":"<temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,maximum-scale=1\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <temple name=\"home\" src=\"./src/page/home.page\" isPage=\"true\"></temple>\r\n    <temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>\r\n    <temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"},{"isPage":true,"name":"name","src":"./src/page/name.page","temple":"<temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,maximum-scale=1\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <div @name=\"example\" class=\"example o-home ox\" id=\"o-home\" style=\"display: none;\">\n    <div class=\"title\">便于书写单页多界面网页</div>\n    <div>\n      <a href=\"#home\">home页面</a>\n      <a href=\"#name\">name页面</a>\n    </div>\n    <div class=\"title\">内置多种页面切换效果</div>\n    <a href=\"#animation\">内置特效</a>\n    <div class=\"title\">使用@click更方便的处理点击事件</div>\n    <p class=\"click\" @click=\"showAlert('Jerome', 'Jefferson')\">you can click me!</p>\n    <div class=\"title\">使用@for更方便地处理重复内容:</div>\n    <div class=\"for-box\">\n      \n<p>rank1:0-lis like orange color!</p>\n<p>rank2:1-kim like yellow color!</p>\n<p>rank3:2-tony like white color!</p>\n    </div>\n    <div class=\"title\">便于处理各种资源引用</div>\n    <div class=\"image-box\">\n      <h4>1.处理html标签中的资源</h4>\n      <img src=\"@&amp;grass.png&amp;\">\n      <h4>2.处理css标签中的资源</h4>\n      <div class=\"image\"></div>\n      <h4>3.处理js标签中的资源</h4>\n      <img id=\"jsImage\" src=\"\">\n    </div>\n    <div class=\"title\">支持slot(插件)</div>\n    <div class=\"button o-button\" template=\"button\">\n    \n      sdfsd\n    \n  </div>\n  </div>\r\n    <temple name=\"name\" src=\"./src/page/name.page\" isPage=\"true\"></temple>\r\n    <temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"},{"isPage":true,"name":"animation","src":"./src/page/animation.page","temple":"<temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>","outerHTML":"<!DOCTYPE html>\r\n<html lang=\"zh-CN\">\r\n  <head>\r\n    <title>页面</title>\r\n    <!-- 页面的元信息 -->\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"/>\r\n    <meta name=\"viewport\" content=\"initial-scale=1,user-scalable=no,maximum-scale=1\"/>\r\n    <!-- css-output -->\r\n    <!-- animation-output -->\r\n  </head>\r\n  <body>\r\n    <!-- 页面区域 -->\r\n    <div @name=\"example\" class=\"example o-home ox\" id=\"o-home\" style=\"display: none;\">\n    <div class=\"title\">便于书写单页多界面网页</div>\n    <div>\n      <a href=\"#home\">home页面</a>\n      <a href=\"#name\">name页面</a>\n    </div>\n    <div class=\"title\">内置多种页面切换效果</div>\n    <a href=\"#animation\">内置特效</a>\n    <div class=\"title\">使用@click更方便的处理点击事件</div>\n    <p class=\"click\" @click=\"showAlert('Jerome', 'Jefferson')\">you can click me!</p>\n    <div class=\"title\">使用@for更方便地处理重复内容:</div>\n    <div class=\"for-box\">\n      \n<p>rank1:0-lis like orange color!</p>\n<p>rank2:1-kim like yellow color!</p>\n<p>rank3:2-tony like white color!</p>\n    </div>\n    <div class=\"title\">便于处理各种资源引用</div>\n    <div class=\"image-box\">\n      <h4>1.处理html标签中的资源</h4>\n      <img src=\"@&amp;grass.png&amp;\">\n      <h4>2.处理css标签中的资源</h4>\n      <div class=\"image\"></div>\n      <h4>3.处理js标签中的资源</h4>\n      <img id=\"jsImage\" src=\"\">\n    </div>\n    <div class=\"title\">支持slot(插件)</div>\n    <div class=\"button o-button\" template=\"button\">\n    \n      sdfsd\n    \n  </div>\n  </div>\r\n    <div class=\"o-name ox\" id=\"o-name\" style=\"display: none;\"><div class=\"top-bar o-topBar\" template=\"topBar\">\n    <div class=\"return-box\" @click=\"return\">\n      <svg t=\"1547798949662\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"1946\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M781.566553 1011.699354L168.659015 540.690841c-20.402945-16.0254-20.402945-42.009075 0-58.034474L781.566553 11.647854c20.377345-16.0254 53.400932-16.0254 73.778278 0 20.377345 15.9998 20.377345 42.009075 0 58.008875L279.326431 511.686404l576.0184 442.004075c20.377345 15.9998 20.377345 41.983475 0 58.008875-20.377345 16.0254-53.400932 16.0254-73.778278 0z\" p-id=\"1947\"></path></svg>\n    <div>\n  </div>\n</div></div>\n  <div class=\"example\">样式隔离:组件与组件之间的样式不会相互影响</div>\n</div>\r\n    <temple name=\"animation\" src=\"./src/page/animation.page\" isPage=\"true\"></temple>\r\n    <!-- script-output -->\r\n  </body>\r\n</html>"}],"dev":{"basePath":"./","watcher":{"enable":true,"ignored":"./dist/*","depth":99},"outPut":{"minifyCss":false,"minifyJs":false,"addVersion":false},"serverPort":8000,"server":true,"autoReload":true,"remoteDebug":true},"build":{"basePath":"./","outPut":{"minifyCss":true,"minifyJs":true,"addVersion":true,"embedSize":10}}} 
+23:21:19.628 INFO  --------------------------- 开始编译 --------------------------- 
+23:21:19.628 INFO  程序运行目录: C:\Users\my\Documents\GitHub\example 
+23:21:19.628 INFO  首次启动! 
+23:21:19.628 INFO  生成版本号: 0k5y87kzejto 
+23:21:19.631 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
+23:21:19.631 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static 
+23:21:19.631 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static 
+23:21:19.631 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
+23:21:19.631 DEBUG 读取网页标题: 页面 
+23:21:19.631 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
+23:21:19.632 DEBUG 处理模板: ./src/page/home.page 
+23:21:19.666 DEBUG 处理模板: ./src/module/button.page 
+23:21:19.675 DEBUG 缓存模板: ./src/module/button.page 
+23:21:19.779 DEBUG 缓存模板: ./src/page/home.page 
+23:21:19.779 DEBUG 处理模板: ./src/page/name.page 
+23:21:19.781 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:21:20.198 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:21:20.202 DEBUG 缓存模板: ./src/page/name.page 
+23:21:20.202 DEBUG 处理模板: ./src/page/animation.page 
+23:21:20.226 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:21:20.239 DEBUG 缓存模板: ./src/page/animation.page 
+23:21:20.240 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\resource 
+23:21:20.241 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\resource 
+23:21:20.241 DEBUG 处理资源: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:21:20.243 INFO  css中的资源处理完毕! 
+23:21:20.256 INFO  正在处理script! 
+23:21:20.257 INFO  工程中包含多个页面! 
+23:21:20.257 DEBUG 页面中不包含切换动画! 
+23:21:21.140 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\js 
+23:21:21.140 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\js 
+23:21:21.153 INFO  js中的资源处理完毕! 
+23:21:21.155 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
+23:21:21.155 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\log.js 
+23:21:21.155 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
+23:21:21.155 DEBUG 外部脚本数量: 1 
+23:21:21.155 DEBUG 处理脚本: gif 
+23:21:21.155 DEBUG 使用bable处理脚本! 
+23:21:21.155 INFO  监控文件夹变化: C:\Users\my\Documents\GitHub\example\src 
+23:21:21.169 INFO  服务器运行在: 127.0.0.1:8000 
+23:21:21.373 DEBUG 需要经过特殊处理的css: [[".o-button .button ",".o-button "],[".o-home .example ",".o-home "],[".o-topBar .top-bar ",".o-topBar "],[".o-animation .animation-box ",".o-animation "]] 
+23:21:21.373 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\example\dist\static\css 
+23:21:21.373 INFO  创建文件夹: C:\Users\my\Documents\GitHub\example\dist\static\css 
+23:21:21.374 INFO  读取文件: C:\Users\my\Documents\GitHub\example\src\main.css 
+23:21:21.374 INFO  附属css中的资源不需要处理! 
+23:21:21.374 DEBUG 判断是否可以输出Html! 
+23:21:21.374 DEBUG 还有没有经过处理的资源! 
+23:21:21.401 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
+23:21:21.401 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\log.js 
+23:21:21.401 INFO  读取成功: C:\Users\my\Documents\GitHub\example\src\main.css 
+23:21:21.426 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\css\main.css 
+23:21:21.427 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\log.js 
+23:21:21.427 INFO  写入文件: C:\Users\my\Documents\GitHub\example\dist\static\js\autoReload.js 
+23:21:21.427 INFO  使用babel处理并生成文件: C:\Users\my\Documents\GitHub\example\dist\static\js\gif.js 
+23:21:21.427 DEBUG 输出scriptData 
+23:21:21.427 DEBUG 判断是否可以输出Html! 
+23:21:21.427 DEBUG 准备输出html! 
+23:21:21.427 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:21:21.427 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:21:21.427 DEBUG 开始美化html 
+23:21:21.467 INFO  发送重新页面需要刷新命令! 
+23:21:21.572 DEBUG 文件处理成功: 
+23:21:21.572 DEBUG C:\Users\my\Documents\GitHub\example\dist\static\resource\grass.png 
+23:23:42.811 INFO  file change: C:\Users\my\Documents\GitHub\example\src\page\home.page 
+23:23:42.812 INFO  --------------------------- 开始编译 --------------------------- 
+23:23:42.812 INFO  程序运行目录: C:\Users\my\Documents\GitHub\example 
+23:23:42.812 INFO  刷新模式,变化目录: C:\Users\my\Documents\GitHub\example\src\page\home.page 
+23:23:42.812 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
+23:23:42.812 DEBUG 读取网页标题: 页面 
+23:23:42.812 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"initial-scale=1,user-scalable=no,maximum-scale=1"}] 
+23:23:42.812 DEBUG 处理模板: ./src/page/home.page 
+23:23:42.831 DEBUG 处理模板: ./src/module/button.page 
+23:23:42.836 DEBUG 缓存模板: ./src/module/button.page 
+23:23:42.840 DEBUG 缓存模板: ./src/page/home.page 
+23:23:42.840 DEBUG 处理模板: ./src/page/name.page 
+23:23:42.844 DEBUG 处理模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:23:43.264 DEBUG 缓存模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:23:43.270 DEBUG 缓存模板: ./src/page/name.page 
+23:23:43.270 DEBUG 处理模板: ./src/page/animation.page 
+23:23:43.288 DEBUG 使用缓存返回模板: https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page 
+23:23:43.302 DEBUG 缓存模板: ./src/page/animation.page 
+23:23:43.303 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:23:43.303 INFO  css中的资源处理完毕! 
+23:23:43.304 INFO  正在处理script! 
+23:23:43.305 INFO  工程中包含多个页面! 
+23:23:43.305 DEBUG 页面中不包含切换动画! 
+23:23:43.458 INFO  js中的资源处理完毕! 
+23:23:43.459 DEBUG 处理引用脚本: [{"name":"gif","src":"./src/script/log.js","babel":true,"defer":true}] 
+23:23:43.459 DEBUG 外部脚本数量: 1 
+23:23:43.459 DEBUG 处理脚本: gif 
+23:23:43.459 DEBUG 使用bable处理脚本! 
+23:23:43.459 DEBUG 输出scriptData 
+23:23:43.459 DEBUG 判断是否可以输出Html! 
+23:23:43.459 DEBUG 还有没有经过处理的资源! 
+23:23:43.600 DEBUG 需要经过特殊处理的css: [[".o-button .button ",".o-button "],[".o-home .example ",".o-home "],[".o-topBar .top-bar ",".o-topBar "],[".o-animation .animation-box ",".o-animation "]] 
+23:23:43.600 DEBUG 判断是否可以输出Html! 
+23:23:43.600 DEBUG 准备输出html! 
+23:23:43.601 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:23:43.601 DEBUG 忽略文件: C:\Users\my\Documents\GitHub\example\src\resource\grass.png 
+23:23:43.601 DEBUG 开始美化html 
+23:23:43.628 INFO  发送重新页面需要刷新命令! 
