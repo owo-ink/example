@@ -1,6 +1,6 @@
 <template>
   <div class="animation-box">
-    <temple name="topBar" src="https://puge-10017157.cos.ap-shanghai.myqcloud.com/temp/topBar.page"></temple>
+    <temple name="topBar" src="https://owo.ink/public/7534cad78d46af546d7a91f0e8903e2a.page"></temple>
     <div class="animation">
       <h4>移动/移出效果</h4>
       <div class="button" @click="$go('name', 'moveToLeft', 'moveFromRight')">向左移出</div>
