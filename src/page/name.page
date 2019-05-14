@@ -1,6 +1,6 @@
 <template>
   <temple name="topBar" src="https://owo.ink/public/7534cad78d46af546d7a91f0e8903e2a.page"></temple>
-  <div class="example">样式隔离:组件与组件之间的样式不会相互影响</div>
+  <div class="example">{{prop.text}}</div>
 </template>
 
 <script>
