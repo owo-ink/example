@@ -1,0 +1,15 @@
+<template>
+  <div class="text-bar">{{prop.text}}</div>
+</template>
+
+
+<style>
+.button {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+  background-color: #009fe9;
+}
+</style>

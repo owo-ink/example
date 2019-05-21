@@ -1,5 +1,5 @@
 /* 这个文件里写的是全局样式,在各个页面都生效 */
-body, html {
+body, html, .ox {
   margin: 0;
   padding: 0;
   width: 100%;

@@ -5,6 +5,8 @@ module.exports = {
   entry: "home",
   // 页面标题
   title: '页面',
+  // 解决方案
+  scheme: ['ie'],
   // 输出目录
   outFolder: "./dist",
   // 资源目录
@@ -50,7 +52,11 @@ module.exports = {
     {
       isPage: true,
       name: 'name',
-      src: './src/page/name.page'
+      src: './src/page/name.page',
+      // 页面也可以传参数
+      prop: {
+        text: '样式隔离:组件与组件之间的样式不会相互影响'
+      }
     },
     {
       isPage: true,
