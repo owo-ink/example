@@ -27,8 +27,8 @@
       <div>slot演示</div>
     </temple>
     <div class="title">支持模板传值</div>
-    <temple name="button" text="文本传值" src="./src/module/textBar.page"></temple>
-    <temple name="button2" text="{{data.text}}" src="./src/module/textBar.page"></temple>
+    <temple name="textBar" text="文本传值" src="./src/module/textBar.page"></temple>
+    <temple name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></temple>
     <div class="title" @if="data.showTitle">支持@for属性</div>
   </div>
 </template>

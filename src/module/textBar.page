@@ -2,6 +2,13 @@
   <div class="text-bar">{{prop.text}}</div>
 </template>
 
+<script>
+  module.exports = {
+    created: function () {
+      console.log(`my name is ${this.prop.text}!`) 
+    }
+  }
+</script>
 
 <style>
 .button {
