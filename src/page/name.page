@@ -1,12 +1,12 @@
 <template>
-  <temple name="topBar" src="https://owo.ink/public/7534cad78d46af546d7a91f0e8903e2a.page"></temple>
+  <temple name="titleBar" src="https://owo.ink/public/8b2a5bb5645c82458e8d3a71d58cd42d.page"></temple>
   <div class="example">{{prop.text}}</div>
 </template>
 
 <script>
   module.exports = {
     created: function () {
-      console.log('my name is pack!') 
+      console.log('my name is pack!')
     }
   }
 </script>

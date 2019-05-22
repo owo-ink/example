@@ -6,7 +6,7 @@ module.exports = {
   // 页面标题
   title: '页面',
   // 解决方案
-  scheme: ['ie'],
+  scheme: [],
   // 输出目录
   outFolder: "./dist",
   // 资源目录
