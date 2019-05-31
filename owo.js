@@ -96,10 +96,12 @@ module.exports = {
   },
   // 编译模式配置
   build: {
+    alertLink: true,
     // 基础目录
     basePath: './',
     // 输出配置
     outPut: {
+      alertLink: true,
       // 是否压缩css
       minifyCss: true,
       // 是否压缩js
