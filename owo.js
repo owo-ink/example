@@ -79,6 +79,8 @@ module.exports = {
     },
     // 输出配置
     outPut: {
+      // 是否将主要css, js合并到html中
+      merge: true,
       // 是否压缩css
       minifyCss: false,
       // 是否压缩js
@@ -98,8 +100,12 @@ module.exports = {
   build: {
     // 基础目录
     basePath: './',
+    // 外链警告
+    alertLink: true,
     // 输出配置
     outPut: {
+      // 是否将主要css, js合并到html中
+      merge: false,
       // 是否压缩css
       minifyCss: true,
       // 是否压缩js
