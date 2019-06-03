@@ -6,7 +6,7 @@ module.exports = {
   // 页面标题
   title: '页面',
   // 解决方案
-  scheme: ['ie'],
+  scheme: [],
   // 输出目录
   outFolder: "./dist",
   // 资源目录
@@ -98,6 +98,7 @@ module.exports = {
   },
   // 编译模式配置
   build: {
+    alertLink: true,
     // 基础目录
     basePath: './',
     // 外链警告
@@ -106,6 +107,7 @@ module.exports = {
     outPut: {
       // 是否将主要css, js合并到html中
       merge: false,
+      alertLink: true,
       // 是否压缩css
       minifyCss: true,
       // 是否压缩js
