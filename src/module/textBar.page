@@ -7,7 +7,12 @@
     created: function () {
       console.log(this)
       console.log(`my name is ${this.prop.text}!`) 
-    }
+    },
+    event: {
+      change: function () {
+        this.$el.innerText = '监听event改变了我!'
+      }
+    },
   }
 </script>
 
