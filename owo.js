@@ -68,6 +68,7 @@ module.exports = {
   dev: {
     // 基础目录
     basePath: './',
+    debug: true,
     // 是否监测文件改动重新打包
     watcher: {
       // 是否启用
@@ -98,7 +99,7 @@ module.exports = {
   },
   // 编译模式配置
   build: {
-    alertLink: true,
+    debug: false,
     // 基础目录
     basePath: './',
     // 外链警告

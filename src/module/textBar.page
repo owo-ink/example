@@ -9,7 +9,7 @@
       console.log(`my name is ${this.prop.text}!`) 
     },
     event: {
-      change: function () {
+      change: function (e) {
         this.$el.innerText = '监听event改变了我!'
       }
     },
