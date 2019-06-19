@@ -32,6 +32,8 @@
     <div class="title" @if="data.showTitle">支持@for属性</div>
     <div class="title">支持绑定原生事件</div>
     <input type="text" @blur="inputBlur" @input="inputText"/>
+    <!-- 方便的精简字体 -->
+    <div font="FZKTJW">你好</div>
   </div>
 </template>
 
