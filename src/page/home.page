@@ -11,7 +11,7 @@
     <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
     <div class="title">使用@for更方便地处理重复内容:</div>
     <div class="for-box">
-      <p @for="(value, key, index) in nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
+      <p @for="(value, key, index) in data.nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
     </div>
     <div class="title">便于处理各种资源引用</div>
     <div class="image-box">
