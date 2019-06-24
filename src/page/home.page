@@ -23,7 +23,8 @@
       <img id="jsImage" src=""/>
     </div>
     <div class="title">支持slot(插件)</div>
-    <temple name="button" src="./src/module/button.page">
+    <!-- 模块外部的class将会同步到模块内部 -->
+    <temple name="button" class="test" src="./src/module/button.page">
       <div>slot演示</div>
     </temple>
     <div class="title">支持模板传值</div>
