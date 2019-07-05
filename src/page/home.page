@@ -35,6 +35,8 @@
     <input type="text" @blur="inputBlur" @input="inputText"/>
     <!-- 方便的精简字体 -->
     <div font="FZKTJW">你好</div>
+    <div class="title">支持组件间通信</div>
+    <input type="button" @click="emit()" value="发送消息"/>
   </div>
 </template>
 
@@ -50,7 +52,7 @@
       }
     },
     created: function () {
-      $tool.toast('hellow word!')
+      owo.tool.toast('hellow word!')
       document.getElementById('jsImage').src = '@&grass.png&'
       // 延时的目的是因为websocket还没链接成功
       setTimeout(() => {
@@ -60,8 +62,8 @@
     showAlert: function (othersName, myName) {
       console.log('可以传递参数:', othersName, myName)
       console.log('方便的获取到可能会用到的信息!')
-      console.log(this)
-      this.$el.innerText = `Hellow ${othersName}, My name is ${myName}`
+      // console.log(this.$event.target)
+      this.$event.target.innerText = `Hellow ${othersName}, My name is ${myName}`
     },
     // 输入框失去焦点
     inputBlur: function () {
@@ -69,6 +71,10 @@
     },
     inputText: function () {
       console.log(`输入框中的值为${this.$event.target.value}`)
+    },
+    emit: function () {
+      console.log('发送消息!')
+      owo.emit('change', 'dsd')
     }
   }
 </script>
