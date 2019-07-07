@@ -10,12 +10,12 @@ npm i 或 yarn
 ```
 安装owo框架：
 ```
-npm i -g @owo/pack
+npm i -g @owo/owo
 ```
 运行:
 ```
-pack dev
+owo dev
 ```
 编译:
 
-pack build
+owo build
