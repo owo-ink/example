@@ -1,5 +1,5 @@
 <template>
-  <div @name="example" class="example">
+  <div class="example">
     <div class="title">便于书写单页多界面网页</div>
     <div>
       <a href="#home">home页面</a>
