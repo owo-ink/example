@@ -16,7 +16,7 @@
     <div class="title">便于处理各种资源引用</div>
     <div class="image-box">
       <h4>1.处理html标签中的资源</h4>
-      <img src="@&grass.png&"/>
+      <img src="@|grass.png|"/>
       <h4>2.处理css标签中的资源</h4>
       <div class="image"></div>
       <h4>3.处理js标签中的资源</h4>
@@ -30,7 +30,7 @@
     <div class="title">支持模板传值</div>
     <temple name="textBar" text="文本传值" src="./src/module/textBar.page"></temple>
     <temple name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></temple>
-    <div class="title" @if="data.showTitle">支持@for属性</div>
+    <div class="title" @if="data.showTitle">支持@if属性</div>
     <div class="title">支持绑定原生事件</div>
     <input type="text" @blur="inputBlur" @input="inputText"/>
     <!-- 方便的精简字体 -->
@@ -53,7 +53,7 @@
     },
     created: function () {
       owo.tool.toast('hellow word!')
-      document.getElementById('jsImage').src = '@&grass.png&'
+      document.getElementById('jsImage').src = '@|grass.png|'
       // 延时的目的是因为websocket还没链接成功
       setTimeout(() => {
         log('这条输出日志会在后端显示!')
@@ -107,7 +107,7 @@
       margin: 10px;
       background-repeat: no-repeat;
       background-size: auto 100%;
-      background-image: url('@&grass.png&');
+      background-image: url('@|grass.png|');
     }
   }
 </style>
