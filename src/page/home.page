@@ -7,11 +7,11 @@
     </div>
     <div class="title">内置多种页面切换效果</div>
     <a href="#animation">内置特效</a>
-    <div class="title">使用@click更方便的处理点击事件</div>
-    <p class="click" @click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
-    <div class="title">使用@for更方便地处理重复内容:</div>
+    <div class="title">使用:click更方便的处理点击事件</div>
+    <p class="click" :click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
+    <div class="title">使用:click更方便地处理重复内容:</div>
     <div class="for-box">
-      <p @for="(value, key, index) in data.nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
+      <p :click="(value, key, index) in data.nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
     </div>
     <div class="title">便于处理各种资源引用</div>
     <div class="image-box">
@@ -30,13 +30,13 @@
     <div class="title">支持模板传值</div>
     <temple name="textBar" text="文本传值" src="./src/module/textBar.page"></temple>
     <temple name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></temple>
-    <div class="title" @if="data.showTitle">支持@if属性</div>
+    <div class="title" :if="data.showTitle">支持:if属性</div>
     <div class="title">支持绑定原生事件</div>
-    <input type="text" @blur="inputBlur" @input="inputText"/>
+    <input type="text" :blur="inputBlur" :input="inputText"/>
     <!-- 方便的精简字体 -->
     <div font="FZKTJW">你好</div>
     <div class="title">支持组件间通信</div>
-    <input type="button" @click="emit()" value="发送消息"/>
+    <input type="button" :click="emit()" value="发送消息"/>
   </div>
 </template>
 
