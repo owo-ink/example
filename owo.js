@@ -43,14 +43,10 @@ module.exports = {
   // 页面清单
   pageList: [
     {
-      // 是否为页面主入口
-      main: true,
-      isPage: true,
       name: 'home',
       src: './src/page/home.page'
     },
     {
-      isPage: true,
       name: 'name',
       src: './src/page/name.page',
       // 页面也可以传参数
@@ -59,7 +55,6 @@ module.exports = {
       }
     },
     {
-      isPage: true,
       name: 'animation',
       src: './src/page/animation.page'
     }

@@ -34,7 +34,7 @@
     <div class="title">支持绑定原生事件</div>
     <input type="text" :blur="inputBlur" :input="inputText"/>
     <!-- 方便的精简字体 -->
-    <div font="FZKTJW">你好</div>
+    <div font="FZKTJW.TTF">你好</div>
     <div class="title">支持组件间通信</div>
     <input type="button" :click="emit()" value="发送消息"/>
   </div>

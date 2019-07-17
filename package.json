@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^8.0.0",
     "less": "^3.9.0"
   },
   "name": "ozzx-example",
