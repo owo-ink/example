@@ -30,7 +30,7 @@
     <div class="title">支持模板传值</div>
     <temple name="textBar" text="文本传值" src="./src/module/textBar.page"></temple>
     <temple name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></temple>
-    <div class="title" :if="data.showTitle">支持:if属性</div>
+    <div class="title" :show="showTitle">支持:if属性</div>
     <div class="title">支持绑定原生事件</div>
     <input type="text" :blur="inputBlur" :input="inputText"/>
     <!-- 方便的精简字体 -->
@@ -59,6 +59,7 @@
       setTimeout(() => {
         log('这条输出日志会在后端显示!')
       }, 0)
+      owo.change('showTitle', true)
     },
     showAlert: function (othersName, myName) {
       console.log('可以传递参数:', othersName, myName)

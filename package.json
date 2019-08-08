@@ -3,7 +3,8 @@
     "imagemin": "^7.0.0",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngquant": "^8.0.0",
-    "less": "^3.9.0"
+    "less": "^3.9.0",
+    "pug": "^2.0.4"
   },
   "name": "ozzx-example",
   "version": "1.0.0",
