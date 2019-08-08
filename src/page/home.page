@@ -37,6 +37,7 @@
     <div font="FZKTJW.TTF">你好</div>
     <div class="title">支持组件间通信</div>
     <input type="button" :click="emit()" value="发送消息"/>
+    <temple name="test" src="./src/module/test.owo"></temple>
   </div>
 </template>
 
