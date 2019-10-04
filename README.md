@@ -6,6 +6,7 @@
 安装依赖：
 ```
 cd example
+
 npm i 或 yarn
 ```
 安装owo框架：
