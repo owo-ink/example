@@ -34,6 +34,7 @@
     <div class="title">支持绑定原生事件</div>
     <input type="text" :blur="inputBlur" :input="inputText"/>
     <!-- 方便的精简字体 -->
+    <div class="title">方便的使用字体</div>
     <div font="FZKTJW.TTF">你好</div>
     <div class="title">支持组件间通信</div>
     <input type="button" :click="emit()" value="发送消息"/>
@@ -61,7 +62,6 @@
       setTimeout(() => {
         log('这条输出日志会在后端显示!')
       }, 0)
-      owo.change('showTitle', true)
     },
     showAlert: function (othersName, myName) {
       console.log('可以传递参数:', othersName, myName)
@@ -78,7 +78,7 @@
     },
     emit: function () {
       console.log('发送消息!')
-      owo.emit('change', 'dsd')
+      owo.tool.emit('change', 'dsd')
     }
   }
 </script>

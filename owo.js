@@ -1,12 +1,12 @@
 module.exports = {
   // 项目根目录
   root: "/src",
-  // 项目入口文件
-  entry: "home",
   // 页面标题
   title: '页面',
   // 解决方案
   scheme: [],
+  // 基础目录
+  basePath: './',
   // 输出目录
   outFolder: "./dist",
   // 资源目录
@@ -61,8 +61,7 @@ module.exports = {
   ],
   // 调试模式配置
   dev: {
-    // 基础目录
-    basePath: './',
+    
     debug: true,
     // 是否监测文件改动重新打包
     watcher: {
@@ -72,6 +71,10 @@ module.exports = {
       ignored: './dist/*',
       // 监测深度,默认99
       depth: 99
+    },
+    route: {
+      // 永远从第一页开始
+      startAtHome: false
     },
     // 输出配置
     outPut: {
@@ -95,10 +98,12 @@ module.exports = {
   // 编译模式配置
   build: {
     debug: false,
-    // 基础目录
-    basePath: './',
     // 外链警告
     alertLink: true,
+    route: {
+      // 永远从第一页开始
+      startAtHome: true
+    },
     // 输出配置
     outPut: {
       // 是否将主要css, js合并到html中
