@@ -9,6 +9,8 @@ module.exports = {
   basePath: './',
   // 输出目录
   outFolder: "./dist",
+  // 手机入口
+  // phoneEnter: "name",
   // 资源目录
   resourceFolder: "./src/resource",
   // head属性清单
