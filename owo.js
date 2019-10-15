@@ -9,6 +9,8 @@ module.exports = {
   basePath: './',
   // 输出目录
   outFolder: "./dist",
+  // 设置外层是否有容器包裹，包裹容器的class
+  container: '',
   // 手机入口
   // phoneEnter: "name",
   // 资源目录

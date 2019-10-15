@@ -24,11 +24,11 @@
     </div>
     <div class="title">支持slot(插件)</div>
     <!-- 模块外部的class将会同步到模块内部 -->
-    <temple name="button" class="test" src="./src/module/button.page">
+    <temple _name="button" class="test" _src="./src/module/button.page">
       <div>slot演示</div>
     </temple>
     <div class="title">支持模板传值</div>
-    <temple name="textBar" text="文本传值" src="./src/module/textBar.page"></temple>
+    <temple _name="textBar" text="文本传值" _src="./src/module/textBar.page"></temple>
     <temple name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></temple>
     <div class="title" :show="showTitle">支持:if属性</div>
     <div class="title">支持绑定原生事件</div>
@@ -40,7 +40,7 @@
     <input type="button" :click="emit()" value="发送消息"/>
     <pre></pre>
     <!-- 测试用 -->
-    <temple name="test" src="./src/module/test.owo"></temple>
+    <temple _name="test" _src="./src/module/test.owo"></temple>
   </div>
 </template>
 
