@@ -103,7 +103,7 @@ module.exports = {
   build: {
     debug: false,
     // 外链警告
-    alertLink: true,
+    alertLink: false,
     route: {
       // 永远从第一页开始
       startAtHome: true
