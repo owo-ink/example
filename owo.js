@@ -48,11 +48,11 @@ module.exports = {
   pageList: [
     {
       name: 'home',
-      src: './src/page/home.page'
+      src: './src/page/home.owo'
     },
     {
       name: 'name',
-      src: './src/page/name.page',
+      src: './src/page/name.owo',
       // 页面也可以传参数
       prop: {
         text: '样式隔离:组件与组件之间的样式不会相互影响'
@@ -60,7 +60,7 @@ module.exports = {
     },
     {
       name: 'animation',
-      src: './src/page/animation.page'
+      src: './src/page/animation.owo'
     }
   ],
   // 调试模式配置

@@ -38,15 +38,17 @@
     <div font="FZKTJW.TTF">你好</div>
     <div class="title">支持组件间通信</div>
     <input type="button" :click="emit()" value="发送消息"/>
-    <pre></pre>
     <!-- 测试用 -->
-    <plug _name="test" _src="./src/module/test.owo"></plug>
+    <div class="title">支持组件间通信</div>
+    <div o-innertext="data.mockText"></div>
+    <!-- <plug _name="test" _src="./src/module/test.owo"></plug> -->
   </div>
 </template>
 
 <script>
   module.exports = {
     data: {
+      mockText: '我是一段文字',
       text: "参数传值",
       showTitle: false,
       nameList: {
