@@ -60,7 +60,7 @@
       document.getElementById('jsImage').src = '@|grass.png|'
       // 延时的目的是因为websocket还没链接成功
       setTimeout(() => {
-        log('这条输出日志会在后端显示!')
+        if (window.log) log('这条输出日志会在后端显示!')
       }, 0)
     },
     showAlert: function (othersName, myName) {
