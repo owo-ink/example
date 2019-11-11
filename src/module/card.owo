@@ -1,0 +1,26 @@
+<template lang="pug">
+.card
+  img(width="325" height="220" src="http://www.people.com.cn/NMediaFile/2019/1111/MAIN201911111727263351579353800.jpg")
+  .text 【大话韩国】“MeToo”运动在韩国
+</template>
+
+<style lang="less">
+.card {
+  width: 325px;
+  height: 220px;
+  position: relative;
+}
+img {
+  display: block;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #dc1a22;
+  height: 30px;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+}
+</style>

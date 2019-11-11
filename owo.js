@@ -28,14 +28,6 @@ module.exports = {
   ],
   // 使用到的外部脚本清单
   scriptList: [
-    {
-      name: "gif",
-      src: "./src/script/log.js",
-      // 是否使用babel处理
-      babel: true,
-      // 是否异步加载此脚本,请确保此脚本不会对DOM进行操作
-      defer: true
-    }
   ],
   // 使用到的样式列表
   styleList: [
@@ -49,23 +41,10 @@ module.exports = {
     {
       name: 'home',
       src: './src/page/home.owo'
-    },
-    {
-      name: 'name',
-      src: './src/page/name.owo',
-      // 页面也可以传参数
-      prop: {
-        text: '样式隔离:组件与组件之间的样式不会相互影响'
-      }
-    },
-    {
-      name: 'animation',
-      src: './src/page/animation.owo'
     }
   ],
   // 调试模式配置
   dev: {
-    
     debug: true,
     // 是否监测文件改动重新打包
     watcher: {

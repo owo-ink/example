@@ -1,126 +1,71 @@
-<template>
-  <div class="example">
-    <div class="title">便于书写单页多界面网页</div>
-    <div>
-      <a href="#home">home页面</a>
-      <a href="#name">name页面</a>
-    </div>
-    <div class="title">内置多种页面切换效果</div>
-    <a href="#animation">内置特效</a>
-    <div class="title">使用:click更方便的处理点击事件</div>
-    <p class="click" :click="showAlert('Jerome', 'Jefferson')">you can click me!</p>
-    <div class="title">使用:for更方便地处理重复内容:</div>
-    <div class="for-box">
-      <p :for="(value, key, index) in data.nameList">{{key}}:{{index}}-{{value.name}} like {{value.like}} color!</p>
-    </div>
-    <div class="title">便于处理各种资源引用</div>
-    <div class="image-box">
-      <h4>1.处理html标签中的资源</h4>
-      <img src="@|grass.png|"/>
-      <h4>2.处理css标签中的资源</h4>
-      <div class="image"></div>
-      <h4>3.处理js标签中的资源</h4>
-      <img id="jsImage" src=""/>
-    </div>
-    <div class="title">支持slot(插件)</div>
-    <!-- 模块外部的class将会同步到模块内部 -->
-    <plug _name="button" class="test" _src="./src/module/button.page">
-      <div>slot演示</div>
-    </plug>
-    <div class="title">支持模板传值</div>
-    <plug _name="textBar" text="文本传值" _src="./src/module/textBar.page"></plug>
-    <plug name="textBar" text="{{data.text}}" src="./src/module/textBar.page"></plug>
-    <div class="title" :show="showTitle">支持:if属性</div>
-    <div class="title">支持绑定原生事件</div>
-    <input type="text" :blur="inputBlur" :input="inputText"/>
-    <!-- 方便的精简字体 -->
-    <div class="title">方便的使用字体</div>
-    <div font="FZKTJW.TTF">你好</div>
-    <div class="title">支持组件间通信</div>
-    <input type="button" :click="emit()" value="发送消息"/>
-    <!-- 测试用 -->
-    <div class="title">支持组件间通信</div>
-    <div o-innertext="data.mockText"></div>
-    <!-- <plug _name="test" _src="./src/module/test.owo"></plug> -->
-  </div>
+<template lang="pug">
+.home
+  img.main-image(src="@|main.jpg|")
+  ul.title-bar
+    li.active 文案文案
+    li 文案文案
+    li 文案文案
+    li 文案文案
+  .center-box
+    .w1000
+      plug(_name="img-title-bar" _image="@|title-1.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .card-box.clear
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+      plug(_name="img-title-bar" _image="@|title-2.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .card-box.clear
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+      
+  .center-box-2
+    .w1000
+      plug(_name="img-title-bar" _image="@|title-3.png|" _src="https://owo.ink/public/43f47f48eb127db7788b8be6fc163a4c.page")
+      .card-box.clear
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
+        plug(_name="card", _src="./src/module/card.owo")
 </template>
-
-<script>
-  module.exports = {
-    data: {
-      mockText: '我是一段文字',
-      text: "参数传值",
-      showTitle: false,
-      nameList: {
-        "rank1": {name: "lis", like: "orange"},
-        "rank2": {name: "kim", like: "yellow"},
-        "rank3": {name: "tony", like: "white"}
-      }
-    },
-    created: function () {
-      owo.tool.toast('hellow word!')
-      document.getElementById('jsImage').src = '@|grass.png|'
-      // 延时的目的是因为websocket还没链接成功
-      setTimeout(() => {
-        if (window.log) log('这条输出日志会在后端显示!')
-      }, 0)
-    },
-    showAlert: function (othersName, myName) {
-      console.log('可以传递参数:', othersName, myName)
-      console.log('方便的获取到可能会用到的信息!')
-      // console.log(this.$event.target)
-      this.$event.target.innerText = `Hellow ${othersName}, My name is ${myName}`
-    },
-    // 输入框失去焦点
-    inputBlur: function () {
-      console.log('输入框失去焦点!')
-    },
-    inputText: function () {
-      console.log(`输入框中的值为${this.$event.target.value}`)
-    },
-    emit: function () {
-      console.log('发送消息!')
-      owo.tool.emit('change', 'dsd')
-    }
-  }
-</script>
 
 
 <style lang="less">
-  .example {
-    .click {
-      color: #009fe9;
-      cursor: pointer;
-    }
-    .click:hover {
-      color: gold;
-    }
-  }
-  .title {
-    line-height: 30px;
-    background-color: cornflowerblue;
+.main-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.title-bar {
+  height: 60px;
+  text-align: center;
+  background-color: #0172b8;
+  li {
+    display: inline-block;
+    line-height: 60px;
     color: white;
-    padding: 0 10px;
-    margin: 5px 0;
+    padding: 0 15px;
+    font-size: 22px;
+    font-weight: bold;
   }
-  .image-box {
-    img {
-      width: 150px;
-      margin: 10px;
-    }
-    .image {
-      height: 60px;
-      margin: 10px;
-      background-repeat: no-repeat;
-      background-size: auto 100%;
-      background-image: url('@|grass.png|');
-    }
+  .active {
+    background-color: #00609d;
   }
-  pre {
-    background-color: #1e1e1e;
-    color: #b1b1b1;
-    line-height: 22px;
-    padding: 10px;
-    font-size: 16px;
-  }
+}
+.img-title-bar {
+  margin: 40px 0;
+}
+.card-box {
+  margin: 0 -5px;
+}
+.card {
+  float: left;
+  margin: 8px 5px;
+}
 </style>
