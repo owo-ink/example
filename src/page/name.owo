@@ -1,0 +1,37 @@
+<template>
+  <plug _name="titleBar" _src="https://owo.ink/public/8b2a5bb5645c82458e8d3a71d58cd42d.page"></plug>
+  <div class="example">{{prop.text}}</div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('my name is pack!')
+    }
+  }
+</script>
+
+
+<style>
+  .example {
+    height: 50px;
+    width: 400px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 2rem;
+  }
+  a {
+    background-color: #009fe9;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+    line-height: 40px;
+    border-radius: 5px;
+  }
+</style>

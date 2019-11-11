@@ -1,0 +1,123 @@
+<template>
+  <div class="animation-box">
+    <plug _name="topBar" _src="https://owo.ink/public/7534cad78d46af546d7a91f0e8903e2a.page"></plug>
+    <div class="animation">
+      <h4>移动/移出效果</h4>
+      <div class="button" :click="$go('name', 'moveToLeft', 'moveFromRight')">向左移出</div>
+      <div class="button" :click="$go('name', 'moveToRight', 'moveFromLeft')">向右移出</div>
+      <div class="button" :click="$go('name', 'moveToTop', 'moveFromBottom')">向上移出</div>
+      <div class="button" :click="$go('name', 'moveToBottom', 'moveFromTop')">向下移出</div>
+      <div class="clear"></div>
+      <h4>淡入/淡出效果</h4>
+      <div class="button" :click="$go('name', 'fade', 'moveFromRight')">从右淡入</div>
+      <div class="button" :click="$go('name', 'fade', 'moveFromLeft')">从左淡入</div>
+      <div class="button" :click="$go('name', 'fade', 'moveFromBottom')">从下淡入</div>
+      <div class="button" :click="$go('name', 'fade', 'moveFromTop')">从上淡入</div>
+      <div class="button" :click="$go('name', 'moveToLeftFade', 'moveFromRightFade')">向左淡出</div>
+      <div class="clear"></div>
+      <h4>向后退出</h4>
+      <div class="button" :click="$go('name', 'scaleDown', 'moveFromRight')">右面插入</div>
+      <div class="button" :click="$go('name', 'scaleDown', 'moveFromLeft')">左面插入</div>
+      <div class="button" :click="$go('name', 'scaleDown', 'moveFromBottom')">下方插入</div>
+      <div class="button" :click="$go('name', 'scaleDown', 'moveFromTop')">上方插入</div>
+      <div class="button" :click="$go('name', 'scaleDown', 'scaleUpDown')">向前推出</div>
+      <div class="button" :click="$go('name', 'scaleDown', 'scaleUp')">向前拉入</div>
+      <div class="button" :click="$go('name', 'moveToLeft', 'scaleUp')">向左划出</div>
+      <div class="button" :click="$go('name', 'moveToRight', 'scaleUp')">向右划出</div>
+      <div class="button" :click="$go('name', 'moveToTop', 'scaleUp')">向上划出</div>
+      <div class="button" :click="$go('name', 'moveToBottom', 'scaleUp')">向下划出</div>
+      <div class="button" :click="$go('name', 'scaleDownCenter', 'scaleUpCenter')">向前划出</div>
+      <div class="clear"></div>
+      <h4>旋转效果</h4>
+      <h5>胶棒</h5>
+      <div class="button" :click="$go('name', 'rotateRightSideFirst', 'moveFromRight&delay200&ontop')">右面插入</div>
+      <div class="button" :click="$go('name', 'rotateLeftSideFirst', 'moveFromLeft&delay200&ontop')">左面插入</div>
+      <div class="button" :click="$go('name', 'rotateTopSideFirst', 'moveFromTop&delay200&ontop')">上方插入</div>
+      <div class="button" :click="$go('name', 'rotateBottomSideFirst', 'moveFromBottom&delay200&ontop')">下方插入</div>
+      <div class="clear"></div>
+      <h5>轻弹</h5>
+      <div class="button" :click="$go('name', 'flipOutRight', 'flipInLeft&delay500')">Flip right</div>
+      <div class="button" :click="$go('name', 'flipOutLeft', 'flipInRight&delay500')">Flip left</div>
+      <div class="button" :click="$go('name', 'flipOutTop', 'flipInBottom&delay500')">Flip top</div>
+      <div class="button" :click="$go('name', 'flipOutBottom', 'flipInTop&delay500')">Flip bottom</div>
+      <div class="clear"></div>
+      <h5>落下</h5>
+      <div class="button" :click="$go('name', 'rotateFall', 'scaleUp')">叶子掉落</div>
+      <div class="clear"></div>
+      <h5>报纸</h5>
+      <div class="button" :click="$go('name', 'rotateOutNewspaper', 'rotateInNewspaper&delay500')">螺旋退出</div>
+      <div class="clear"></div>
+      <h5>推拉窗</h5>
+      <div class="button" :click="$go('name', 'rotatePushLeft', 'moveFromRight')">向左推出</div>
+      <div class="button" :click="$go('name', 'rotatePushRight', 'moveFromLeft')">向右推出</div>
+      <div class="button" :click="$go('name', 'rotatePushTop', 'moveFromBottom')">向上推出</div>
+      <div class="button" :click="$go('name', 'rotatePushBottom', 'moveFromTop')">向下推出</div>
+      <div class="clear"></div>
+      <h5>旋转推拉窗</h5>
+      <div class="button" :click="$go('name', 'rotatePushLeft', 'rotatePullRight')">向左推出</div>
+      <div class="button" :click="$go('name', 'rotatePushRight', 'rotatePullLeft')">向右推出</div>
+      <div class="button" :click="$go('name', 'rotatePushTop', 'rotatePullBottom')">向上推出</div>
+      <div class="button" :click="$go('name', 'rotatePushBottom', 'rotatePullTop')">向下推出</div>
+      <div class="clear"></div>
+      <h5>折叠/展开</h5>
+      <div class="button" :click="$go('name', 'rotateFoldLeft', 'moveFromRightFade')">向左移动</div>
+      <div class="button" :click="$go('name', 'rotateFoldRight', 'moveFromLeftFade')">向右移动</div>
+      <div class="button" :click="$go('name', 'rotateFoldTop', 'moveFromBottomFade')">向下移动</div>
+      <div class="button" :click="$go('name', 'rotateFoldBottom', 'moveFromTopFade')">向上移动</div>
+      <div class="clear"></div>
+      <h5>旋转折叠/展开</h5>
+      <div class="button" :click="$go('name', 'moveToLeftFade', 'rotateUnfoldRight')">向左移动</div>
+      <div class="button" :click="$go('name', 'moveToRightFade', 'rotateUnfoldLeft')">向右移动</div>
+      <div class="button" :click="$go('name', 'moveToBottomFade', 'rotateUnfoldTop')">向下移动</div>
+      <div class="button" :click="$go('name', 'moveToTopFade', 'rotateUnfoldBottom')">向上移动</div>
+      <div class="clear"></div>
+      <h5>房间</h5>
+      <div class="button" :click="$go('name', 'rotateRoomLeftOut', 'rotateRoomLeftIn')">向左移动</div>
+      <div class="button" :click="$go('name', 'rotateRoomRightOut', 'rotateRoomRightIn')">Room to right</div>
+      <div class="button" :click="$go('name', 'rotateRoomTopOut', 'rotateRoomTopIn')">Room to top</div>
+      <div class="button" :click="$go('name', 'rotateRoomBottomOut', 'rotateRoomBottomIn')">Room to bottom</div>
+      <div class="clear"></div>
+      <h5>立方体</h5>
+      <div class="button" :click="$go('name', 'rotateCubeLeftOut', 'rotateCubeLeftIn')">向左移动</div>
+      <div class="button" :click="$go('name', 'rotateCubeRightOut', 'rotateCubeRightIn')">向右移动</div>
+      <div class="button" :click="$go('name', 'rotateCubeTopOut', 'rotateCubeTopIn')">向上移动</div>
+      <div class="button" :click="$go('name', 'rotateCubeBottomOut', 'rotateCubeBottomIn')">向下移动</div>
+      <div class="clear"></div>
+      <h5>旋转木马</h5>
+      <div class="button" :click="$go('name', 'rotateCarouselLeftOut', 'rotateCarouselLeftIn')">向左移动</div>
+      <div class="button" :click="$go('name', 'rotateCarouselRightOut', 'rotateCarouselRightIn')">向右移动</div>
+      <div class="button" :click="$go('name', 'rotateCarouselTopOut', 'rotateCarouselTopIn')">向上移动</div>
+      <div class="button" :click="$go('name', 'rotateCarouselBottomOut', 'rotateCarouselBottomIn')">向下移动</div>
+      <div class="clear"></div>
+      <h5>Sides</h5>
+      <div class="button" :click="$go('name', 'rotateSidesOut', 'rotateSidesIn&delay200')">Sides</div>
+      <div class="clear"></div>
+      <h4>Slide</h4>
+      <div class="button" :click="$go('name', 'rotateSlideOut', 'rotateSlideIn')">Slide</div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</template>
+
+
+<style>
+  .animation-box {
+    width: 100%;
+    height: 100%;
+  }
+  .animation {
+    padding: 10px;
+  }
+  .button {
+    background-color: skyblue;
+    color: white;
+    padding: 5px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 151px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    margin: 5px 10px;
+  }
+</style>
